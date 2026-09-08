@@ -13,20 +13,19 @@
     <section class="card"><h2>Temukan data Anda</h2><p class="intro">Ketik minimal dua huruf, lalu pilih nama yang sesuai.</p>
       <form id="form"><div class="search-wrap"><label for="nama">Nama Karyawan</label><input class="input" id="nama" autocomplete="off" placeholder="Ketik nama karyawan" required><div id="results" class="results"></div></div>
         <div class="details"><div><label for="nik">NIK</label><input class="input" id="nik" readonly></div><div><label for="bagian">Bagian</label><input class="input" id="bagian" readonly></div><div class="full"><label for="jabatan">Jabatan</label><input class="input" id="jabatan" readonly></div></div>
-        <button class="btn" id="submit" disabled>Kirim Data</button><div id="status" class="status"></div>
+        <button class="btn" id="submit" disabled>Lanjutkan ke Penilaian</button><div id="status" class="status"></div>
       </form>
     </section>
   </main>
-  <iframe name="formTarget" hidden></iframe>
   <script>
-    const API='https://script.google.com/macros/s/AKfycbyrOuvyOvEftL6e2guwQIxh04pwG_FqqrRlX5NOpnZA0TZbXdk71WybgDjnYjj22Z7R/exec';
-    const FORM='https://docs.google.com/forms/d/e/1FAIpQLSeKmvRS4eHSkPywcVfxEVltvCJgO4IVnwpJapJ5LHnB8ks9yg/formResponse';
+    const API='https://script.google.com/macros/s/AKfycbyTuNaz84kQneWMAB8qrh-Ppfu5KWjCmcWBDDMi1jq6I_yJ2yG6lUH_CxbngS-DTFte6w/exec';
+    const FORM='https://docs.google.com/forms/d/e/1FAIpQLSeqfObOgx0zIfWg45P78LC7snp2hoDtyxshKHZAOf0kZ7JVJA/viewform';
     const el={form:document.querySelector('#form'),nama:document.querySelector('#nama'),nik:document.querySelector('#nik'),bagian:document.querySelector('#bagian'),jabatan:document.querySelector('#jabatan'),results:document.querySelector('#results'),submit:document.querySelector('#submit'),status:document.querySelector('#status')};let selected='',timer;
     function api(params){return new Promise((resolve,reject)=>{const cb='cb_'+Date.now()+'_'+Math.random().toString(36).slice(2);const script=document.createElement('script');const cleanup=()=>{delete window[cb];script.remove()};window[cb]=value=>{cleanup();value.ok?resolve(value.data):reject(new Error(value.message))};script.onerror=()=>{cleanup();reject(new Error('API tidak dapat dihubungi. Pastikan Apps Script sudah diterapkan sebagai versi baru.'))};script.src=API+'?'+new URLSearchParams({...params,callback:cb});document.body.appendChild(script)})}
     function message(text,type){el.status.textContent=text;el.status.className='status show '+type}function reset(){selected='';el.nik.value='';el.bagian.value='';el.jabatan.value='';el.submit.disabled=true}
     el.nama.addEventListener('input',()=>{reset();clearTimeout(timer);const q=el.nama.value.trim();if(q.length<2){el.results.className='results';return}el.results.innerHTML='<div class="empty">Mencari…</div>';el.results.className='results show';timer=setTimeout(async()=>{try{const rows=await api({action:'search',q});el.results.innerHTML=rows.length?'':'<div class="empty">Nama tidak ditemukan.</div>';rows.forEach(row=>{const b=document.createElement('button');b.type='button';b.className='result';b.textContent=row.nama;b.onclick=()=>choose(row.nama);el.results.appendChild(b)})}catch(e){message(e.message,'error')}},300)});
     async function choose(name){el.nama.value=name;el.results.className='results';try{const row=await api({action:'get',name});selected=row.nama;el.nik.value=row.nik;el.bagian.value=row.bagian;el.jabatan.value=row.jabatan;el.submit.disabled=false}catch(e){message(e.message,'error')}}
-    el.form.addEventListener('submit',e=>{e.preventDefault();if(!selected)return;const f=document.createElement('form');f.method='POST';f.action=FORM;f.target='formTarget';[['entry.2005620554',selected],['entry.1166974658',el.nik.value],['entry.839337160',el.bagian.value],['entry.134342005',el.jabatan.value]].forEach(([n,v])=>{const i=document.createElement('input');i.type='hidden';i.name=n;i.value=v;f.appendChild(i)});document.body.appendChild(f);f.submit();f.remove();el.submit.disabled=true;message('Data berhasil dikirim.','ok')});
+    el.form.addEventListener('submit',e=>{e.preventDefault();if(!selected)return;const params=new URLSearchParams({usp:'pp_url','entry.2005620554':selected,'entry.1045781291':el.nik.value,'entry.1166974658':el.bagian.value,'entry.1065046570':el.jabatan.value});window.location.href=FORM+'?'+params.toString()});
   </script>
 </body>
 </html>
