@@ -1,13 +1,58 @@
 <!doctype html>
 <html lang="id">
 <head>
+  <base target="_top">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh"
-        content="0;url=https://script.google.com/macros/s/AKfycbyTuNaz84kQneWMAB8qrh-Ppfu5KWjCmcWBDDMi1jq6I_yJ2yG6lUH_CxbngS-DTFte6w/exec">
-  <title>Database Karyawan</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#123a68">
+  <style>
+    :root{--navy:#123a68;--blue:#1976d2;--bg:#eef3f8;--line:#d8e1ea;--text:#172333;--muted:#627184;--danger:#b42318;--ok:#067647}
+    *{box-sizing:border-box} body{margin:0;min-height:100vh;background:linear-gradient(145deg,#e7eef6,#f8fafc);color:var(--text);font-family:Inter,Arial,sans-serif;padding:24px 14px}
+    .shell{width:min(680px,100%);margin:auto}.brand{display:flex;align-items:center;gap:13px;margin:0 0 18px 4px}.mark{width:46px;height:46px;border-radius:14px;background:var(--navy);color:#fff;display:grid;place-items:center;font-weight:800;font-size:20px;box-shadow:0 8px 20px #123a6833}.brand h1{font-size:21px;margin:0}.brand p{margin:3px 0 0;color:var(--muted);font-size:14px}
+    .card{background:#fff;border:1px solid #fff;border-radius:22px;box-shadow:0 18px 45px #123a6817;padding:clamp(20px,5vw,34px)}.step{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);margin-bottom:8px}.title{font-size:26px;line-height:1.2;margin:0 0 8px}.intro{margin:0 0 26px;color:var(--muted);line-height:1.55}
+    label{display:block;font-size:14px;font-weight:750;margin:0 0 8px}.search-wrap{position:relative}.input{width:100%;min-height:50px;border:1px solid var(--line);border-radius:13px;padding:13px 15px;font:inherit;color:var(--text);background:#fff;outline:none;transition:.2s}.input:focus{border-color:var(--blue);box-shadow:0 0 0 4px #1976d21a}.input[readonly]{background:#f6f8fb;color:#44556a}.hint{font-size:13px;color:var(--muted);margin:7px 0 0}
+    .results{position:absolute;z-index:5;top:calc(100% + 6px);left:0;right:0;background:#fff;border:1px solid var(--line);border-radius:13px;box-shadow:0 14px 30px #17233322;max-height:250px;overflow:auto;display:none}.results.show{display:block}.result{display:block;width:100%;border:0;border-bottom:1px solid #eef2f6;background:#fff;padding:13px 15px;text-align:left;font:inherit;cursor:pointer}.result:hover,.result:focus{background:#edf5fd}.result:last-child{border-bottom:0}.empty{padding:14px;color:var(--muted);font-size:14px}
+    .details{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}.full{grid-column:1/-1}.actions{margin-top:26px}.btn{width:100%;min-height:52px;border:0;border-radius:13px;background:var(--navy);color:#fff;font:700 16px inherit;cursor:pointer;transition:.2s}.btn:hover{background:#0d2e54;transform:translateY(-1px)}.btn:disabled{opacity:.55;cursor:not-allowed;transform:none}.status{display:none;margin-top:17px;padding:13px 15px;border-radius:12px;font-size:14px;line-height:1.45}.status.show{display:block}.status.error{background:#fef3f2;color:var(--danger)}.status.ok{background:#ecfdf3;color:var(--ok)}
+    .privacy{display:flex;gap:9px;align-items:flex-start;margin-top:20px;color:var(--muted);font-size:13px;line-height:1.45}.privacy span:first-child{color:var(--navy);font-weight:bold}
+    @media(max-width:540px){body{padding-top:16px}.details{grid-template-columns:1fr}.full{grid-column:auto}.card{border-radius:18px}.title{font-size:23px}}
+  </style>
 </head>
 <body>
-  <p>Membuka formulir data karyawan…</p>
+  <main class="shell">
+    <header class="brand"><div class="mark">G</div><div><h1>Database Karyawan</h1><p>PT Gamatex</p></div></header>
+    <section class="card">
+      <div class="step">Identitas karyawan</div>
+      <h2 class="title">Temukan data Anda</h2>
+      <p class="intro">Ketik nama, pilih hasil yang sesuai, lalu periksa data sebelum dikirim.</p>
+      <form id="form" autocomplete="off">
+        <div class="search-wrap">
+          <label for="nama">Nama Karyawan</label>
+          <input class="input" id="nama" type="search" placeholder="Ketik minimal 2 huruf" aria-controls="results" aria-expanded="false" required>
+          <div id="results" class="results" role="listbox"></div>
+          <p class="hint">Pilih nama dari hasil pencarian agar data terisi otomatis.</p>
+        </div>
+        <div class="details">
+          <div><label for="nik">NIK</label><input class="input" id="nik" readonly></div>
+          <div><label for="bagian">Bagian</label><input class="input" id="bagian" readonly></div>
+          <div class="full"><label for="jabatan">Jabatan</label><input class="input" id="jabatan" readonly></div>
+        </div>
+        <div class="actions"><button class="btn" id="submit" type="submit" disabled>Kirim Data</button></div>
+        <div id="status" class="status" role="status" aria-live="polite"></div>
+      </form>
+      <div class="privacy"><span>✓</span><span>Pencarian diproses secara aman. Daftar lengkap NIK tidak disimpan di halaman ini.</span></div>
+    </section>
+  </main>
+  <script>
+    const els={form:document.querySelector('#form'),nama:document.querySelector('#nama'),nik:document.querySelector('#nik'),bagian:document.querySelector('#bagian'),jabatan:document.querySelector('#jabatan'),results:document.querySelector('#results'),submit:document.querySelector('#submit'),status:document.querySelector('#status')};
+    let selectedName='',timer;
+    const showStatus=(message,type)=>{els.status.textContent=message;els.status.className='status show '+type};
+    const clearEmployee=()=>{selectedName='';els.nik.value='';els.bagian.value='';els.jabatan.value='';els.submit.disabled=true};
+    const closeResults=()=>{els.results.classList.remove('show');els.nama.setAttribute('aria-expanded','false')};
+    els.nama.addEventListener('input',()=>{clearEmployee();clearTimeout(timer);const q=els.nama.value.trim();if(q.length<2){closeResults();return}els.results.innerHTML='<div class="empty">Mencari…</div>';els.results.classList.add('show');els.nama.setAttribute('aria-expanded','true');timer=setTimeout(()=>google.script.run.withSuccessHandler(renderResults).withFailureHandler(e=>showStatus(e.message,'error')).searchEmployees(q),280)});
+    function renderResults(rows){els.results.innerHTML='';if(!rows.length){els.results.innerHTML='<div class="empty">Nama tidak ditemukan.</div>';return}rows.forEach(row=>{const b=document.createElement('button');b.type='button';b.className='result';b.textContent=row.nama;b.setAttribute('role','option');b.addEventListener('click',()=>selectEmployee(row.nama));els.results.appendChild(b)})}
+    function selectEmployee(name){els.nama.value=name;closeResults();google.script.run.withSuccessHandler(employee=>{selectedName=employee.nama;els.nik.value=employee.nik;els.bagian.value=employee.bagian;els.jabatan.value=employee.jabatan;els.submit.disabled=false;els.status.className='status'}).withFailureHandler(e=>showStatus(e.message,'error')).getEmployee(name)}
+    document.addEventListener('click',e=>{if(!e.target.closest('.search-wrap'))closeResults()});
+    els.form.addEventListener('submit',e=>{e.preventDefault();if(!selectedName)return showStatus('Silakan pilih nama dari hasil pencarian.','error');els.submit.disabled=true;els.submit.textContent='Mengirim…';google.script.run.withSuccessHandler(result=>{showStatus('Data '+result.nama+' berhasil dikirim.','ok');els.submit.textContent='Terkirim';els.nama.disabled=true}).withFailureHandler(err=>{showStatus(err.message,'error');els.submit.disabled=false;els.submit.textContent='Kirim Data'}).submitEmployee({nama:selectedName})});
+  </script>
 </body>
 </html>
