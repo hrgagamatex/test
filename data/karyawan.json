@@ -1,0 +1,2578 @@
+[
+  {
+    "nik": "153496",
+    "nama": "A. Ilham Setiawan",
+    "bagian": "Weaving 2",
+    "jabatan": "Operator Listrik Shift Weaving 2",
+    "tanggal_masuk": "2015-08-19"
+  },
+  {
+    "nik": "940540",
+    "nama": "Aang Mulyana",
+    "bagian": "Persiapan",
+    "jabatan": "Foreman Persiapan",
+    "tanggal_masuk": "1994-10-11"
+  },
+  {
+    "nik": "960745",
+    "nama": "Abdul Wahab Sahroni",
+    "bagian": "Persiapan",
+    "jabatan": "Staff Persiapan",
+    "tanggal_masuk": "1996-12-09"
+  },
+  {
+    "nik": "264168",
+    "nama": "Abel Iman Septian Rumapea",
+    "bagian": "Gudang",
+    "jabatan": "Operator Gudang Barang Jadi",
+    "tanggal_masuk": "2026-08-13"
+  },
+  {
+    "nik": "244036",
+    "nama": "Acep Sumarna",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Winding",
+    "tanggal_masuk": "2024-10-14"
+  },
+  {
+    "nik": "244040",
+    "nama": "Achmad Nurdian Kuswardiansyah",
+    "bagian": "Quality Control",
+    "jabatan": "Foreman QC",
+    "tanggal_masuk": "2024-10-21"
+  },
+  {
+    "nik": "244050",
+    "nama": "Ade Hermansyah",
+    "bagian": "HRGA",
+    "jabatan": "Driver",
+    "tanggal_masuk": "2024-12-09"
+  },
+  {
+    "nik": "254139",
+    "nama": "Ade Imron Rosadi",
+    "bagian": "Utility",
+    "jabatan": "Operator Bengkel",
+    "tanggal_masuk": "2025-11-11"
+  },
+  {
+    "nik": "183749",
+    "nama": "Ade Irfan",
+    "bagian": "Gudang",
+    "jabatan": "Operator Gudang Bahan Baku",
+    "tanggal_masuk": "2018-07-14"
+  },
+  {
+    "nik": "082647",
+    "nama": "Ade Kusnawan",
+    "bagian": "Utility",
+    "jabatan": "Operator IPAL-Boiler",
+    "tanggal_masuk": "2006-10-07"
+  },
+  {
+    "nik": "244011",
+    "nama": "Ade Mukti",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Warping (Depan)",
+    "tanggal_masuk": "2024-09-03"
+  },
+  {
+    "nik": "264167",
+    "nama": "Ade Ridwan Syaputra",
+    "bagian": "Gudang",
+    "jabatan": "Operator Gudang Barang Jadi",
+    "tanggal_masuk": "2026-08-13"
+  },
+  {
+    "nik": "153511",
+    "nama": "Adi Kurniawan",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Beaming)",
+    "tanggal_masuk": "2015-09-28"
+  },
+  {
+    "nik": "163593",
+    "nama": "Adi Mulyadi",
+    "bagian": "Finishing",
+    "jabatan": "Foreman Finishing",
+    "tanggal_masuk": "2016-07-20"
+  },
+  {
+    "nik": "031069",
+    "nama": "Adi Rachmat",
+    "bagian": "Quality Control",
+    "jabatan": "Foreman QC",
+    "tanggal_masuk": "2003-01-21"
+  },
+  {
+    "nik": "244055",
+    "nama": "Adi Ramdani",
+    "bagian": "HRGA",
+    "jabatan": "Pengawas SDM",
+    "tanggal_masuk": "2024-12-26"
+  },
+  {
+    "nik": "113024",
+    "nama": "Adi Sucita",
+    "bagian": "Quality Control",
+    "jabatan": "Support Operator Inspecting",
+    "tanggal_masuk": "2011-11-07"
+  },
+  {
+    "nik": "244031",
+    "nama": "Aditia Pramesta",
+    "bagian": "Gudang",
+    "jabatan": "Operator Gudang Barang Jadi",
+    "tanggal_masuk": "2024-10-14"
+  },
+  {
+    "nik": "264164",
+    "nama": "Aditya Julianto",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2026-07-30"
+  },
+  {
+    "nik": "254066",
+    "nama": "Aep Saepulloh",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tying Weaving 1",
+    "tanggal_masuk": "2025-02-14"
+  },
+  {
+    "nik": "254096",
+    "nama": "Agi Maulana Mardiansyah",
+    "bagian": "Gudang",
+    "jabatan": "Operator Gudang Barang Jadi",
+    "tanggal_masuk": "2025-05-30"
+  },
+  {
+    "nik": "173690",
+    "nama": "Agus Rahayu Feriansyah",
+    "bagian": "Gudang",
+    "jabatan": "Kepala Regu Gudang Bahan Baku",
+    "tanggal_masuk": "2017-04-13"
+  },
+  {
+    "nik": "254080",
+    "nama": "Agus Sutisna",
+    "bagian": "Finishing",
+    "jabatan": "Operator Shrinking",
+    "tanggal_masuk": "2025-04-17"
+  },
+  {
+    "nik": "223908",
+    "nama": "Agus Triyantoro",
+    "bagian": "Information and Technology",
+    "jabatan": "Staff IT",
+    "tanggal_masuk": "2022-02-08"
+  },
+  {
+    "nik": "082631",
+    "nama": "Ahmad Yani",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator MTC Shift Weaving 1",
+    "tanggal_masuk": "2006-09-01"
+  },
+  {
+    "nik": "243961",
+    "nama": "Aisah Nur Ajijah",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-05-13"
+  },
+  {
+    "nik": "970769",
+    "nama": "Akbar Jaelani",
+    "bagian": "HRGA",
+    "jabatan": "Foreman HRGA",
+    "tanggal_masuk": "1997-02-25"
+  },
+  {
+    "nik": "102862",
+    "nama": "Alan",
+    "bagian": "Purchasing",
+    "jabatan": "Staff Support Purchasing",
+    "tanggal_masuk": "2012-05-02"
+  },
+  {
+    "nik": "254107",
+    "nama": "Aldi Denaldi",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator MTC NS Weaving 1",
+    "tanggal_masuk": "2025-07-17"
+  },
+  {
+    "nik": "223920",
+    "nama": "Aldy Faizal Noegraha",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Supply Pakan Weaving 1",
+    "tanggal_masuk": "2022-05-31"
+  },
+  {
+    "nik": "254123",
+    "nama": "Ama Amdhani",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Pencelupan)",
+    "tanggal_masuk": "2025-09-11"
+  },
+  {
+    "nik": "213896",
+    "nama": "Amda Rahman Laksmana L",
+    "bagian": "Utility",
+    "jabatan": "Adm. IPAL-Boiler",
+    "tanggal_masuk": "2021-12-16"
+  },
+  {
+    "nik": "143433",
+    "nama": "Amuh Muhidin",
+    "bagian": "Research and Development",
+    "jabatan": "Operator Jahit",
+    "tanggal_masuk": "2014-09-06"
+  },
+  {
+    "nik": "153514",
+    "nama": "Anan Muhibat",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Penganjian)",
+    "tanggal_masuk": "2015-10-08"
+  },
+  {
+    "nik": "183721",
+    "nama": "Andi Arif",
+    "bagian": "Finishing",
+    "jabatan": "Operator Bakar Bulu",
+    "tanggal_masuk": "2018-01-09"
+  },
+  {
+    "nik": "203846",
+    "nama": "Andi Irnawan",
+    "bagian": "Utility",
+    "jabatan": "Kepala Regu IPAL-Boiler",
+    "tanggal_masuk": "2020-08-27"
+  },
+  {
+    "nik": "254115",
+    "nama": "Andri Ardiansyah",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Final Inspect",
+    "tanggal_masuk": "2025-08-04"
+  },
+  {
+    "nik": "173708",
+    "nama": "Andri Dirgantara",
+    "bagian": "Research and Development",
+    "jabatan": "Operator Washing",
+    "tanggal_masuk": "2017-10-23"
+  },
+  {
+    "nik": "254127",
+    "nama": "Andri Pujianto",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Final Inspect",
+    "tanggal_masuk": "2025-09-10"
+  },
+  {
+    "nik": "203848",
+    "nama": "Andri Sumantri",
+    "bagian": "Weaving 1",
+    "jabatan": "Kepala Regu NS Weaving 1",
+    "tanggal_masuk": "2020-09-10"
+  },
+  {
+    "nik": "244047",
+    "nama": "Andrian Zaini",
+    "bagian": "Utility",
+    "jabatan": "Operator Bengkel",
+    "tanggal_masuk": "2024-11-28"
+  },
+  {
+    "nik": "213870",
+    "nama": "Andriansyah Ashari",
+    "bagian": "Gudang",
+    "jabatan": "Adm. Gudang Bahan Baku",
+    "tanggal_masuk": "2021-08-12"
+  },
+  {
+    "nik": "243959",
+    "nama": "Angga Anggara",
+    "bagian": "Finishing",
+    "jabatan": "Operator Shrinking",
+    "tanggal_masuk": "2024-05-06"
+  },
+  {
+    "nik": "900132",
+    "nama": "Ani Supriatni",
+    "bagian": "Accounting",
+    "jabatan": "Staff Piutang Dagang",
+    "tanggal_masuk": "1990-08-01"
+  },
+  {
+    "nik": "203838",
+    "nama": "Aprilia Widasa",
+    "bagian": "Weaving 2",
+    "jabatan": "Operator Tenun Weaving 2",
+    "tanggal_masuk": "2020-06-29"
+  },
+  {
+    "nik": "243956",
+    "nama": "Apud Ahmadi",
+    "bagian": "Gudang",
+    "jabatan": "Operator Gudang Pendukung Produksi",
+    "tanggal_masuk": "2024-04-24"
+  },
+  {
+    "nik": "244004",
+    "nama": "Ardi Ramadi",
+    "bagian": "Utility",
+    "jabatan": "Operator Bengkel",
+    "tanggal_masuk": "2024-08-22"
+  },
+  {
+    "nik": "243950",
+    "nama": "Ari Marifah",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-01-15"
+  },
+  {
+    "nik": "254058",
+    "nama": "Arief Miftah Farid",
+    "bagian": "HRGA",
+    "jabatan": "Pengawas SDM",
+    "tanggal_masuk": "2025-01-02"
+  },
+  {
+    "nik": "254081",
+    "nama": "Ariel Rendi Renaldi",
+    "bagian": "Finishing",
+    "jabatan": "Operator Shrinking",
+    "tanggal_masuk": "2025-04-17"
+  },
+  {
+    "nik": "082619",
+    "nama": "Arip Priatna",
+    "bagian": "Utility",
+    "jabatan": "Operator IPAL-Boiler",
+    "tanggal_masuk": "2012-11-14"
+  },
+  {
+    "nik": "244057",
+    "nama": "Aris Al Ansori",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Checker QC",
+    "tanggal_masuk": "2024-12-27"
+  },
+  {
+    "nik": "163544",
+    "nama": "Asep Kunaefi",
+    "bagian": "Utility",
+    "jabatan": "Operator IPAL-Boiler",
+    "tanggal_masuk": "2016-01-25"
+  },
+  {
+    "nik": "254088",
+    "nama": "Asep Kurnia",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Winding",
+    "tanggal_masuk": "2025-04-30"
+  },
+  {
+    "nik": "254089",
+    "nama": "Asep Moch Suryadi",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Winding",
+    "tanggal_masuk": "2025-04-30"
+  },
+  {
+    "nik": "243972",
+    "nama": "Asep Pajar Sidik",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Beaming)",
+    "tanggal_masuk": "2024-06-11"
+  },
+  {
+    "nik": "254109",
+    "nama": "Asep Saepudin",
+    "bagian": "Utility",
+    "jabatan": "Operator IPAL-Boiler",
+    "tanggal_masuk": "2025-08-01"
+  },
+  {
+    "nik": "223931",
+    "nama": "Asep Sanusi",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator MTC NS Weaving 1",
+    "tanggal_masuk": "2022-09-08"
+  },
+  {
+    "nik": "223923",
+    "nama": "Atep Arozzak Mubarok",
+    "bagian": "Finishing",
+    "jabatan": "Operator Bakar Bulu",
+    "tanggal_masuk": "2022-07-11"
+  },
+  {
+    "nik": "123059",
+    "nama": "Bambang Aris Setiawan",
+    "bagian": "Persiapan",
+    "jabatan": "Operator MTC Persiapan",
+    "tanggal_masuk": "2012-02-16"
+  },
+  {
+    "nik": "082528",
+    "nama": "Barno",
+    "bagian": "Gudang",
+    "jabatan": "Kepala Bagian Gudang",
+    "tanggal_masuk": "2006-07-10"
+  },
+  {
+    "nik": "243979",
+    "nama": "Bayu Krisna Pati",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-07-09"
+  },
+  {
+    "nik": "254116",
+    "nama": "Beni",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tying Weaving 1",
+    "tanggal_masuk": "2025-08-19"
+  },
+  {
+    "nik": "243976",
+    "nama": "Beni Samsudin",
+    "bagian": "HRGA",
+    "jabatan": "Operator HRGA",
+    "tanggal_masuk": "2024-07-02"
+  },
+  {
+    "nik": "213879",
+    "nama": "Budhi Agustian",
+    "bagian": "Finishing",
+    "jabatan": "Kepala Regu Shift Finishing",
+    "tanggal_masuk": "2021-11-12"
+  },
+  {
+    "nik": "050777",
+    "nama": "Budi Hermawan",
+    "bagian": "Manajemen Puncak",
+    "jabatan": "Wakil Direktur",
+    "tanggal_masuk": "2001-06-01"
+  },
+  {
+    "nik": "244032",
+    "nama": "Bunga Rahayu Cantika Putri",
+    "bagian": "Quality Control",
+    "jabatan": "Adm. Lab Kimia QC",
+    "tanggal_masuk": "2024-10-11"
+  },
+  {
+    "nik": "133202",
+    "nama": "Candra",
+    "bagian": "HRGA",
+    "jabatan": "Driver",
+    "tanggal_masuk": "2013-02-01"
+  },
+  {
+    "nik": "153531",
+    "nama": "Christina Natalia",
+    "bagian": "Finance and Tax",
+    "jabatan": "Staff Ahli Pajak",
+    "tanggal_masuk": "2015-11-26"
+  },
+  {
+    "nik": "960735",
+    "nama": "Christo Hutasoit",
+    "bagian": "Research and Development",
+    "jabatan": "Kepala Bagian R & D",
+    "tanggal_masuk": "1996-11-27"
+  },
+  {
+    "nik": "254138",
+    "nama": "Dadan Soleh Ramdani",
+    "bagian": "Utility",
+    "jabatan": "Operator Listrik Utility",
+    "tanggal_masuk": "2025-10-20"
+  },
+  {
+    "nik": "223932",
+    "nama": "Dadang",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator MTC NS Weaving 1",
+    "tanggal_masuk": "2022-09-08"
+  },
+  {
+    "nik": "930377",
+    "nama": "Dadi Saripudin",
+    "bagian": "HRGA",
+    "jabatan": "Pramukantor",
+    "tanggal_masuk": "1993-04-12"
+  },
+  {
+    "nik": "092757",
+    "nama": "Dadin Sudarman",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Beaming)",
+    "tanggal_masuk": "2013-04-06"
+  },
+  {
+    "nik": "143400",
+    "nama": "Darmawan",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator MTC NS Weaving 1",
+    "tanggal_masuk": "2014-05-09"
+  },
+  {
+    "nik": "000946",
+    "nama": "Darsito",
+    "bagian": "Utility",
+    "jabatan": "Foreman IPAL-Boiler",
+    "tanggal_masuk": "2000-02-14"
+  },
+  {
+    "nik": "173702",
+    "nama": "David Nainggolan",
+    "bagian": "Production Planning Control",
+    "jabatan": "Staff PPC Persiapan",
+    "tanggal_masuk": "2017-09-23"
+  },
+  {
+    "nik": "254085",
+    "nama": "Dea Marsanda",
+    "bagian": "Research and Development",
+    "jabatan": "Adm. R&D",
+    "tanggal_masuk": "2025-04-29"
+  },
+  {
+    "nik": "123131",
+    "nama": "Dede Mahmud",
+    "bagian": "Research and Development",
+    "jabatan": "Operator Sample",
+    "tanggal_masuk": "2012-08-26"
+  },
+  {
+    "nik": "264163",
+    "nama": "Dede Rohaeti",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2026-07-13"
+  },
+  {
+    "nik": "243951",
+    "nama": "Deden Hermana",
+    "bagian": "Finishing",
+    "jabatan": "Kepala Regu Shift Finishing",
+    "tanggal_masuk": "2024-01-24"
+  },
+  {
+    "nik": "113007",
+    "nama": "Deden Kosasih",
+    "bagian": "Weaving 1",
+    "jabatan": "Foreman MTC Weaving 1",
+    "tanggal_masuk": "2011-10-20"
+  },
+  {
+    "nik": "193815",
+    "nama": "Deden Rusnandar",
+    "bagian": "Utility",
+    "jabatan": "Kepala Regu Listrik Utility",
+    "tanggal_masuk": "2019-01-28"
+  },
+  {
+    "nik": "021039",
+    "nama": "Dedi",
+    "bagian": "Persiapan",
+    "jabatan": "Wa. Ka. Bag MTC Persiapan",
+    "tanggal_masuk": "2002-03-18"
+  },
+  {
+    "nik": "254084",
+    "nama": "Dedi Ismaya",
+    "bagian": "Finishing",
+    "jabatan": "Operator Bakar Bulu",
+    "tanggal_masuk": "2025-04-22"
+  },
+  {
+    "nik": "244023",
+    "nama": "Dedi Wahyudi",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Listrik NS Weaving 1",
+    "tanggal_masuk": "2024-10-01"
+  },
+  {
+    "nik": "254060",
+    "nama": "Dela Putri Roswiyati",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-01-20"
+  },
+  {
+    "nik": "244046",
+    "nama": "Delta Puspita",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Nyucuk",
+    "tanggal_masuk": "2024-11-28"
+  },
+  {
+    "nik": "082541",
+    "nama": "Deni",
+    "bagian": "Weaving 1",
+    "jabatan": "Wa. Ka. Bag MTC Weaving 1",
+    "tanggal_masuk": "2006-04-07"
+  },
+  {
+    "nik": "223927",
+    "nama": "Deni Kurniawan",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Listrik Shift Weaving 1",
+    "tanggal_masuk": "2022-07-22"
+  },
+  {
+    "nik": "213902",
+    "nama": "Deni Ramdani",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tying Weaving 1",
+    "tanggal_masuk": "2021-12-27"
+  },
+  {
+    "nik": "243996",
+    "nama": "Deni Sopian",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Final Inspect",
+    "tanggal_masuk": "2024-08-14"
+  },
+  {
+    "nik": "254093",
+    "nama": "Derisha Trigita Shandy",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-05-29"
+  },
+  {
+    "nik": "254125",
+    "nama": "Devi Apriani Putri",
+    "bagian": "Persiapan",
+    "jabatan": "Adm. Dyeing Sizing",
+    "tanggal_masuk": "2025-09-16"
+  },
+  {
+    "nik": "223915",
+    "nama": "Dewi Yuliani",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Inspecting Grey",
+    "tanggal_masuk": "2022-02-23"
+  },
+  {
+    "nik": "243974",
+    "nama": "Dhiya Fathiya Ajrina",
+    "bagian": "HRGA",
+    "jabatan": "Receptionist",
+    "tanggal_masuk": "2024-06-20"
+  },
+  {
+    "nik": "203854",
+    "nama": "Dian Heriyani",
+    "bagian": "Weaving 2",
+    "jabatan": "Operator Tenun Weaving 2",
+    "tanggal_masuk": "2020-11-09"
+  },
+  {
+    "nik": "203845",
+    "nama": "Dian Novianty",
+    "bagian": "HRGA",
+    "jabatan": "Human Resource & Payroll (HRP) Officer",
+    "tanggal_masuk": "2020-08-04"
+  },
+  {
+    "nik": "244024",
+    "nama": "Dian Suci Nurhayati",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-10-01"
+  },
+  {
+    "nik": "183811",
+    "nama": "Dicky Setiawan",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Kebersihan Persiapan",
+    "tanggal_masuk": "2018-11-30"
+  },
+  {
+    "nik": "254065",
+    "nama": "Dikki Al Madhani",
+    "bagian": "Utility",
+    "jabatan": "Operator IPAL-Boiler",
+    "tanggal_masuk": "2025-02-10"
+  },
+  {
+    "nik": "254137",
+    "nama": "Dila Azzahra Hayati",
+    "bagian": "Finishing",
+    "jabatan": "Adm. Finishing",
+    "tanggal_masuk": "2025-10-14"
+  },
+  {
+    "nik": "243981",
+    "nama": "Dina Sulastri",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-07-17"
+  },
+  {
+    "nik": "153509",
+    "nama": "Dina Yulianti",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2015-09-28"
+  },
+  {
+    "nik": "233942",
+    "nama": "Dinda Nur Anisa",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Lab QC",
+    "tanggal_masuk": "2023-10-09"
+  },
+  {
+    "nik": "203852",
+    "nama": "Dodi Rohman",
+    "bagian": "Utility",
+    "jabatan": "Operator IPAL-Boiler",
+    "tanggal_masuk": "2020-11-09"
+  },
+  {
+    "nik": "244019",
+    "nama": "Dudi Supriatna",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator MTC NS Weaving 1",
+    "tanggal_masuk": "2024-09-23"
+  },
+  {
+    "nik": "163586",
+    "nama": "Dudu Mulyadi",
+    "bagian": "Gudang",
+    "jabatan": "Operator Gudang Bahan Baku",
+    "tanggal_masuk": "2016-07-13"
+  },
+  {
+    "nik": "243995",
+    "nama": "Dudu Rahman",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Inspecting Grey",
+    "tanggal_masuk": "2024-08-14"
+  },
+  {
+    "nik": "163540",
+    "nama": "Dudun",
+    "bagian": "Weaving 2",
+    "jabatan": "Wa. Ka. Bag Weaving 2",
+    "tanggal_masuk": "2016-01-20"
+  },
+  {
+    "nik": "113026",
+    "nama": "Dudun Permana Agung",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Warping (Depan)",
+    "tanggal_masuk": "2011-11-10"
+  },
+  {
+    "nik": "820017",
+    "nama": "Dudung",
+    "bagian": "Weaving 1",
+    "jabatan": "Wa. Ka. Bag MTC Weaving 1",
+    "tanggal_masuk": "1982-10-05"
+  },
+  {
+    "nik": "163648",
+    "nama": "Dudy Suhendra",
+    "bagian": "Research and Development",
+    "jabatan": "Operator Jahit",
+    "tanggal_masuk": "2016-12-02"
+  },
+  {
+    "nik": "254134",
+    "nama": "Eka Suryaman",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-10-06"
+  },
+  {
+    "nik": "082567",
+    "nama": "Eki Wahyudi",
+    "bagian": "Utility",
+    "jabatan": "Foreman Bengkel-Listrik",
+    "tanggal_masuk": "2012-08-27"
+  },
+  {
+    "nik": "092725",
+    "nama": "Eko Kurniawan Putra",
+    "bagian": "Marketing",
+    "jabatan": "Kepala Bagian Marketing",
+    "tanggal_masuk": "2013-05-21"
+  },
+  {
+    "nik": "000972",
+    "nama": "Ela Melani",
+    "bagian": "Weaving 1",
+    "jabatan": "Adm. Weaving 1",
+    "tanggal_masuk": "2000-08-18"
+  },
+  {
+    "nik": "173688",
+    "nama": "Eneng Mulyani",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Inspecting Grey",
+    "tanggal_masuk": "2017-03-27"
+  },
+  {
+    "nik": "264159",
+    "nama": "Erizza Nurfaz",
+    "bagian": "Gudang",
+    "jabatan": "Operator Gudang Barang Jadi",
+    "tanggal_masuk": "2026-05-04"
+  },
+  {
+    "nik": "244018",
+    "nama": "Erlinda Widyasmara Diyanthi",
+    "bagian": "Gudang",
+    "jabatan": "Adm. Gudang Barang Jadi",
+    "tanggal_masuk": "2024-09-21"
+  },
+  {
+    "nik": "173706",
+    "nama": "Erwanto",
+    "bagian": "Finishing",
+    "jabatan": "Operator MTC Finishing",
+    "tanggal_masuk": "2017-10-05"
+  },
+  {
+    "nik": "254069",
+    "nama": "Euis Mariati",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-02-18"
+  },
+  {
+    "nik": "254092",
+    "nama": "Eva Nursusilawati",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-05-29"
+  },
+  {
+    "nik": "244052",
+    "nama": "F A H R U D I N",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Beaming)",
+    "tanggal_masuk": "2024-12-24"
+  },
+  {
+    "nik": "223936",
+    "nama": "Fadhila Nurrahim",
+    "bagian": "Gudang",
+    "jabatan": "Supir Forklift Gud.Barang Jadi",
+    "tanggal_masuk": "2022-12-19"
+  },
+  {
+    "nik": "233937",
+    "nama": "Faisal Rakhman",
+    "bagian": "Utility",
+    "jabatan": "Kepala Bagian Utility",
+    "tanggal_masuk": "2023-01-04"
+  },
+  {
+    "nik": "244051",
+    "nama": "Fajar Nugraha",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Final Inspect",
+    "tanggal_masuk": "2024-12-17"
+  },
+  {
+    "nik": "254098",
+    "nama": "Fajar Sidik",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Potong Kain Weaving 1",
+    "tanggal_masuk": "2025-06-05"
+  },
+  {
+    "nik": "243967",
+    "nama": "Fani Hilmawan",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator MTC NS Weaving 1",
+    "tanggal_masuk": "2024-06-07"
+  },
+  {
+    "nik": "123160",
+    "nama": "Fatah Ibrahim",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Penganjian)",
+    "tanggal_masuk": "2012-10-18"
+  },
+  {
+    "nik": "223912",
+    "nama": "Fedrix Zyan Ramadhan",
+    "bagian": "Persiapan",
+    "jabatan": "Operator",
+    "tanggal_masuk": "2022-02-24"
+  },
+  {
+    "nik": "183802",
+    "nama": "Fera Aprilyantini",
+    "bagian": "Accounting",
+    "jabatan": "Staff Akunting Biaya",
+    "tanggal_masuk": "2018-10-26"
+  },
+  {
+    "nik": "213874",
+    "nama": "Feri Hernawan",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator MTC Shift Weaving 1",
+    "tanggal_masuk": "2021-08-26"
+  },
+  {
+    "nik": "213868",
+    "nama": "Feriansyah",
+    "bagian": "Utility",
+    "jabatan": "Operator Listrik Utility",
+    "tanggal_masuk": "2021-06-02"
+  },
+  {
+    "nik": "123143",
+    "nama": "Fernando Harahap",
+    "bagian": "Production Planning Control",
+    "jabatan": "Kepala Bagian PPC",
+    "tanggal_masuk": "2012-10-01"
+  },
+  {
+    "nik": "072493",
+    "nama": "Ferry Wibowo",
+    "bagian": "Weaving 1",
+    "jabatan": "Kepala Bagian Weaving 1",
+    "tanggal_masuk": "2010-01-26"
+  },
+  {
+    "nik": "264166",
+    "nama": "Firdaus",
+    "bagian": "Gudang",
+    "jabatan": "Operator Gudang Barang Jadi",
+    "tanggal_masuk": "2026-08-13"
+  },
+  {
+    "nik": "244039",
+    "nama": "Fitri Handayani",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-10-16"
+  },
+  {
+    "nik": "254106",
+    "nama": "Galih Ramdani",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tying Weaving 1",
+    "tanggal_masuk": "2025-07-17"
+  },
+  {
+    "nik": "243944",
+    "nama": "Giffari Diaz Oka",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Kebersihan Weaving 1",
+    "tanggal_masuk": "2024-01-02"
+  },
+  {
+    "nik": "254063",
+    "nama": "Gilang Gunawan",
+    "bagian": "Utility",
+    "jabatan": "Operator IPAL-Boiler",
+    "tanggal_masuk": "2025-02-10"
+  },
+  {
+    "nik": "254077",
+    "nama": "Ginanjar Tedi Kurniawansyah",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Potong Kain Weaving 1",
+    "tanggal_masuk": "2025-04-15"
+  },
+  {
+    "nik": "254112",
+    "nama": "Gita Fitriyani",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-08-02"
+  },
+  {
+    "nik": "900120",
+    "nama": "Giyarti Setyasih",
+    "bagian": "Accounting",
+    "jabatan": "Staff Hutang Dagang",
+    "tanggal_masuk": "1990-06-11"
+  },
+  {
+    "nik": "810002",
+    "nama": "Gouw Kui Hiong",
+    "bagian": "Finance and Tax",
+    "jabatan": "Ka Div Finance & Tax",
+    "tanggal_masuk": "1981-07-15"
+  },
+  {
+    "nik": "254119",
+    "nama": "Gun Gun",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Penganjian)",
+    "tanggal_masuk": "2025-09-01"
+  },
+  {
+    "nik": "244000",
+    "nama": "Gunadi Erwandi",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Potong Kain Weaving 1",
+    "tanggal_masuk": "2024-08-20"
+  },
+  {
+    "nik": "244003",
+    "nama": "Hadi Sopian Reza",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Potong Kain Weaving 1",
+    "tanggal_masuk": "2024-08-22"
+  },
+  {
+    "nik": "092794",
+    "nama": "Haeruman",
+    "bagian": "HRGA",
+    "jabatan": "Operator HRGA",
+    "tanggal_masuk": "2005-05-01"
+  },
+  {
+    "nik": "264165",
+    "nama": "Hafiizh Riffanto",
+    "bagian": "Gudang",
+    "jabatan": "Operator Gudang Barang Jadi",
+    "tanggal_masuk": "2026-08-03"
+  },
+  {
+    "nik": "243953",
+    "nama": "Handini Miyanti",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Inspecting Grey",
+    "tanggal_masuk": "2024-02-15"
+  },
+  {
+    "nik": "173687",
+    "nama": "Handoko",
+    "bagian": "HRGA",
+    "jabatan": "Tech and Support (TS) Officer",
+    "tanggal_masuk": "2017-03-20"
+  },
+  {
+    "nik": "254111",
+    "nama": "Hani Hayati",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-08-02"
+  },
+  {
+    "nik": "244030",
+    "nama": "Hasan Nuryahdi",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Final Inspect",
+    "tanggal_masuk": "2024-10-08"
+  },
+  {
+    "nik": "021049",
+    "nama": "Hendar Kusnandar",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator MTC NS Weaving 1",
+    "tanggal_masuk": "2002-05-27"
+  },
+  {
+    "nik": "082527",
+    "nama": "Hendarso",
+    "bagian": "Utility",
+    "jabatan": "Operator Bengkel",
+    "tanggal_masuk": "2006-03-10"
+  },
+  {
+    "nik": "244013",
+    "nama": "Hendra Septiary",
+    "bagian": "HRGA",
+    "jabatan": "Legal Officer",
+    "tanggal_masuk": "2024-09-12"
+  },
+  {
+    "nik": "153481",
+    "nama": "Hendra Yudi Bahtiar",
+    "bagian": "Utility",
+    "jabatan": "Operator Loader & Penanggung Jawab TPS",
+    "tanggal_masuk": "2015-06-11"
+  },
+  {
+    "nik": "072494",
+    "nama": "Heri Kiswanto",
+    "bagian": "Persiapan",
+    "jabatan": "Kepala Regu Dyeing Sizing",
+    "tanggal_masuk": "2006-05-01"
+  },
+  {
+    "nik": "082648",
+    "nama": "Heri Suhendar",
+    "bagian": "Persiapan",
+    "jabatan": "Kepala Regu Dyeing Sizing",
+    "tanggal_masuk": "2006-10-06"
+  },
+  {
+    "nik": "203853",
+    "nama": "Hermawan Setiawan",
+    "bagian": "Weaving 2",
+    "jabatan": "Operator Potong Kain Weaving 2",
+    "tanggal_masuk": "2020-11-09"
+  },
+  {
+    "nik": "990907",
+    "nama": "Hidayat",
+    "bagian": "Persiapan",
+    "jabatan": "Kepala Regu MTC Persiapan",
+    "tanggal_masuk": "1999-09-21"
+  },
+  {
+    "nik": "183781",
+    "nama": "Hikmah Nuraeni",
+    "bagian": "Quality Control",
+    "jabatan": "Adm. QC",
+    "tanggal_masuk": "2018-08-18"
+  },
+  {
+    "nik": "254114",
+    "nama": "Hilal Ardiansyah",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Final Inspect",
+    "tanggal_masuk": "2025-08-04"
+  },
+  {
+    "nik": "082615",
+    "nama": "I Komang Suidnya",
+    "bagian": "Quality Control",
+    "jabatan": "Kepala Bagian QC",
+    "tanggal_masuk": "2006-05-02"
+  },
+  {
+    "nik": "920271",
+    "nama": "Ikin Asikin",
+    "bagian": "HRGA",
+    "jabatan": "Pramukantor",
+    "tanggal_masuk": "1992-04-20"
+  },
+  {
+    "nik": "254128",
+    "nama": "Ilham Fadilah",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Final Inspect",
+    "tanggal_masuk": "2025-09-13"
+  },
+  {
+    "nik": "254118",
+    "nama": "Ilyas Munawar",
+    "bagian": "Finishing",
+    "jabatan": "Operator Non Shift Finishing",
+    "tanggal_masuk": "2025-08-21"
+  },
+  {
+    "nik": "243987",
+    "nama": "Imanudin",
+    "bagian": "Utility",
+    "jabatan": "Operator Bengkel",
+    "tanggal_masuk": "2024-08-01"
+  },
+  {
+    "nik": "264152",
+    "nama": "Imas Siti Komariah",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Nyucuk",
+    "tanggal_masuk": "2026-01-05"
+  },
+  {
+    "nik": "244048",
+    "nama": "Imron Adi Susanto",
+    "bagian": "Utility",
+    "jabatan": "Operator IPAL-Boiler",
+    "tanggal_masuk": "2024-11-28"
+  },
+  {
+    "nik": "000949",
+    "nama": "Imron Rosyadi",
+    "bagian": "HRGA",
+    "jabatan": "Driver",
+    "tanggal_masuk": "2000-03-02"
+  },
+  {
+    "nik": "254079",
+    "nama": "Indra Bahtiar",
+    "bagian": "Finishing",
+    "jabatan": "Operator Shrinking",
+    "tanggal_masuk": "2025-04-16"
+  },
+  {
+    "nik": "203839",
+    "nama": "Indra Gunawan",
+    "bagian": "Weaving 2",
+    "jabatan": "Operator Tying Weaving 2",
+    "tanggal_masuk": "2020-07-06"
+  },
+  {
+    "nik": "254062",
+    "nama": "Iqbal Aditya Kurniawan",
+    "bagian": "HRGA",
+    "jabatan": "Pengawas SDM",
+    "tanggal_masuk": "2025-01-27"
+  },
+  {
+    "nik": "113009",
+    "nama": "Ira Astuti Nurfajar",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2011-10-20"
+  },
+  {
+    "nik": "213893",
+    "nama": "Irfan",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2021-11-29"
+  },
+  {
+    "nik": "102868",
+    "nama": "Irfan Permana",
+    "bagian": "Weaving 2",
+    "jabatan": "Operator MTC NS Weaving 2",
+    "tanggal_masuk": "2012-02-13"
+  },
+  {
+    "nik": "173663",
+    "nama": "Irman Mariawan",
+    "bagian": "Weaving 1",
+    "jabatan": "Kepala Regu Operasional Weaving 1",
+    "tanggal_masuk": "2017-02-08"
+  },
+  {
+    "nik": "143459",
+    "nama": "Irmawati",
+    "bagian": "Purchasing",
+    "jabatan": "Staff Purchasing Ekspedisi",
+    "tanggal_masuk": "2014-12-08"
+  },
+  {
+    "nik": "082577",
+    "nama": "Irpan Sopian",
+    "bagian": "Quality Control",
+    "jabatan": "Kepala Regu Grey Inspect",
+    "tanggal_masuk": "2012-09-03"
+  },
+  {
+    "nik": "243969",
+    "nama": "Irwan Saepuloh",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Final Inspect",
+    "tanggal_masuk": "2024-06-10"
+  },
+  {
+    "nik": "243946",
+    "nama": "Irwan Somantri",
+    "bagian": "Utility",
+    "jabatan": "Operator Bengkel",
+    "tanggal_masuk": "2024-01-02"
+  },
+  {
+    "nik": "183754",
+    "nama": "Irwansyah",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Pencelupan)",
+    "tanggal_masuk": "2018-07-20"
+  },
+  {
+    "nik": "264156",
+    "nama": "Istiqna Ahnaf Dewita",
+    "bagian": "HRGA",
+    "jabatan": "Document Handler",
+    "tanggal_masuk": "2026-04-30"
+  },
+  {
+    "nik": "830023",
+    "nama": "Iwan Tirta Tjahyono",
+    "bagian": "Produksi",
+    "jabatan": "Manager Pabrik",
+    "tanggal_masuk": "1983-08-02"
+  },
+  {
+    "nik": "092719",
+    "nama": "Iwan Uci Gunawan",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Winding",
+    "tanggal_masuk": "2013-02-18"
+  },
+  {
+    "nik": "900177",
+    "nama": "Jaelani",
+    "bagian": "Finishing",
+    "jabatan": "Kepala Bagian Finishing",
+    "tanggal_masuk": "1990-12-25"
+  },
+  {
+    "nik": "900138",
+    "nama": "Jarot Karyadi",
+    "bagian": "Produksi",
+    "jabatan": "Pengawas Proses Persiapan",
+    "tanggal_masuk": "1989-09-22"
+  },
+  {
+    "nik": "153493",
+    "nama": "Jati Wahono",
+    "bagian": "Persiapan",
+    "jabatan": "Foreman NS Persiapan",
+    "tanggal_masuk": "2015-07-30"
+  },
+  {
+    "nik": "264158",
+    "nama": "Jhyantiyana Kustiawan",
+    "bagian": "HRGA",
+    "jabatan": "Compliance Officer",
+    "tanggal_masuk": "2026-05-04"
+  },
+  {
+    "nik": "254142",
+    "nama": "Jidhan Mutaqin",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Lab QC",
+    "tanggal_masuk": "2025-11-27"
+  },
+  {
+    "nik": "254104",
+    "nama": "Jihan Berliana",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-07-15"
+  },
+  {
+    "nik": "243964",
+    "nama": "Jony Waluyo Setiadi",
+    "bagian": "Weaving 2",
+    "jabatan": "Operator Listrik Shift Weaving 2",
+    "tanggal_masuk": "2024-06-03"
+  },
+  {
+    "nik": "243947",
+    "nama": "Junaidi Abdillah",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Beaming)",
+    "tanggal_masuk": "2024-01-08"
+  },
+  {
+    "nik": "254082",
+    "nama": "Kadek Dika Permana",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Final Inspect",
+    "tanggal_masuk": "2025-04-18"
+  },
+  {
+    "nik": "243975",
+    "nama": "Karmilati",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-07-02"
+  },
+  {
+    "nik": "244049",
+    "nama": "Kartika Dwi Astuti",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Inspecting Grey",
+    "tanggal_masuk": "2024-12-02"
+  },
+  {
+    "nik": "243970",
+    "nama": "Kartini",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-06-11"
+  },
+  {
+    "nik": "254083",
+    "nama": "Kemal Lutfi",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Final Inspect",
+    "tanggal_masuk": "2025-04-18"
+  },
+  {
+    "nik": "163620",
+    "nama": "Kiki Indrawan",
+    "bagian": "Finishing",
+    "jabatan": "Operator Bakar Bulu",
+    "tanggal_masuk": "2016-08-19"
+  },
+  {
+    "nik": "153525",
+    "nama": "Komarudin",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator MTC Shift Weaving 1",
+    "tanggal_masuk": "2015-10-27"
+  },
+  {
+    "nik": "143383",
+    "nama": "Kristi Widya Astuti",
+    "bagian": "HRGA",
+    "jabatan": "Human Resource Development (HRD) Officer",
+    "tanggal_masuk": "2014-03-26"
+  },
+  {
+    "nik": "213876",
+    "nama": "Kusniadi",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Listrik Shift Weaving 1",
+    "tanggal_masuk": "2021-11-01"
+  },
+  {
+    "nik": "243962",
+    "nama": "Lesmana",
+    "bagian": "Finishing",
+    "jabatan": "Kepala Regu Shift Finishing",
+    "tanggal_masuk": "2024-05-27"
+  },
+  {
+    "nik": "254090",
+    "nama": "Linar Sunarti",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-05-19"
+  },
+  {
+    "nik": "213869",
+    "nama": "Linda Destianti",
+    "bagian": "Weaving 2",
+    "jabatan": "Operator Tenun Weaving 2",
+    "tanggal_masuk": "2021-06-22"
+  },
+  {
+    "nik": "183729",
+    "nama": "Lucky Hermawan",
+    "bagian": "Gudang",
+    "jabatan": "Adm. Gudang Pendukung Produksi",
+    "tanggal_masuk": "2018-01-29"
+  },
+  {
+    "nik": "183812",
+    "nama": "Mahadi Diantara",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Warping (Depan)",
+    "tanggal_masuk": "2018-12-07"
+  },
+  {
+    "nik": "153485",
+    "nama": "Martin Adi Suryadi",
+    "bagian": "Weaving 2",
+    "jabatan": "Foreman Shift Weaving 2",
+    "tanggal_masuk": "2015-06-18"
+  },
+  {
+    "nik": "143454",
+    "nama": "Maswan",
+    "bagian": "Produksi",
+    "jabatan": "Staff Ahli Mekanik",
+    "tanggal_masuk": "2014-11-26"
+  },
+  {
+    "nik": "243948",
+    "nama": "Melinda Sukmawati",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-01-15"
+  },
+  {
+    "nik": "254120",
+    "nama": "Miin",
+    "bagian": "Finance and Tax",
+    "jabatan": "Staff Pajak 1",
+    "tanggal_masuk": "2025-09-01"
+  },
+  {
+    "nik": "244029",
+    "nama": "Moch Farizal Ibrahim",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Kebersihan Weaving 1",
+    "tanggal_masuk": "2024-10-09"
+  },
+  {
+    "nik": "213903",
+    "nama": "Mochamad Sambas Riana",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tying Weaving 1",
+    "tanggal_masuk": "2021-12-27"
+  },
+  {
+    "nik": "254129",
+    "nama": "Mochamad Suhendar",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator MTC NS Weaving 1",
+    "tanggal_masuk": "2025-09-22"
+  },
+  {
+    "nik": "102887",
+    "nama": "Mochamad Zainan",
+    "bagian": "HRGA",
+    "jabatan": "Kernet",
+    "tanggal_masuk": "2012-07-01"
+  },
+  {
+    "nik": "970824",
+    "nama": "Muchamad Soleh",
+    "bagian": "Persiapan",
+    "jabatan": "Foreman Persiapan",
+    "tanggal_masuk": "1997-09-08"
+  },
+  {
+    "nik": "244007",
+    "nama": "Muhamad Amin",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Potong Kain Weaving 1",
+    "tanggal_masuk": "2024-08-26"
+  },
+  {
+    "nik": "082503",
+    "nama": "Muhamad Angga P",
+    "bagian": "Utility",
+    "jabatan": "Kepala Regu IPAL-Boiler",
+    "tanggal_masuk": "2006-01-14"
+  },
+  {
+    "nik": "203840",
+    "nama": "Muhamad Dahlan",
+    "bagian": "Quality Control",
+    "jabatan": "Support Operator Inspecting",
+    "tanggal_masuk": "2020-07-27"
+  },
+  {
+    "nik": "244021",
+    "nama": "Muhamad Hilal Naufal",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Warping (Depan)",
+    "tanggal_masuk": "2024-09-27"
+  },
+  {
+    "nik": "254064",
+    "nama": "Muhamad Nursodik",
+    "bagian": "Utility",
+    "jabatan": "Operator IPAL-Boiler",
+    "tanggal_masuk": "2025-02-10"
+  },
+  {
+    "nik": "254071",
+    "nama": "Muhamad Randi Turangga",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Supply Pakan Weaving 1",
+    "tanggal_masuk": "2025-02-26"
+  },
+  {
+    "nik": "254133",
+    "nama": "Muhamad Restu Prasetiyo",
+    "bagian": "Gudang",
+    "jabatan": "Operator Gudang Barang Jadi",
+    "tanggal_masuk": "2025-10-06"
+  },
+  {
+    "nik": "173673",
+    "nama": "Muhamad Ridwan",
+    "bagian": "Persiapan",
+    "jabatan": "Kepala Bagian Persiapan",
+    "tanggal_masuk": "2017-02-23"
+  },
+  {
+    "nik": "183730",
+    "nama": "Muhamad Saepulloh",
+    "bagian": "Gudang",
+    "jabatan": "Adm. Gudang Barang Jadi",
+    "tanggal_masuk": "2018-01-29"
+  },
+  {
+    "nik": "143347",
+    "nama": "Muhamad Subki",
+    "bagian": "Weaving 2",
+    "jabatan": "Foreman NS Weaving 2",
+    "tanggal_masuk": "2014-01-09"
+  },
+  {
+    "nik": "254108",
+    "nama": "Muhamad Taofik Hidayat",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Potong Kain Weaving 1",
+    "tanggal_masuk": "2025-07-17"
+  },
+  {
+    "nik": "264162",
+    "nama": "Muhamad Yoga Rahman Pradipta",
+    "bagian": "Marketing",
+    "jabatan": "Staf Marketing",
+    "tanggal_masuk": "2026-07-13"
+  },
+  {
+    "nik": "264161",
+    "nama": "Muhamad Zinedine Akbar",
+    "bagian": "HRGA",
+    "jabatan": "MSO (Management System Officer)",
+    "tanggal_masuk": "2026-05-25"
+  },
+  {
+    "nik": "223935",
+    "nama": "Muhammad Defri Enkasyarif",
+    "bagian": "Marketing",
+    "jabatan": "Staf Marketing Creative",
+    "tanggal_masuk": "2022-10-05"
+  },
+  {
+    "nik": "133299",
+    "nama": "Multazam",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tying Weaving 1",
+    "tanggal_masuk": "2013-09-09"
+  },
+  {
+    "nik": "254075",
+    "nama": "Murniyanti",
+    "bagian": "Marketing",
+    "jabatan": "Staf Ekspor Marketing",
+    "tanggal_masuk": "2025-04-14"
+  },
+  {
+    "nik": "244054",
+    "nama": "Nanang Hendra",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Pencelupan)",
+    "tanggal_masuk": "2024-12-24"
+  },
+  {
+    "nik": "203851",
+    "nama": "Nanda Candika",
+    "bagian": "Utility",
+    "jabatan": "Adm. IPAL-Boiler",
+    "tanggal_masuk": "2020-10-26"
+  },
+  {
+    "nik": "092764",
+    "nama": "Nano Samiadi",
+    "bagian": "Weaving 1",
+    "jabatan": "Foreman Shift Weaving 1",
+    "tanggal_masuk": "2013-04-15"
+  },
+  {
+    "nik": "112985",
+    "nama": "Narto",
+    "bagian": "Weaving 1",
+    "jabatan": "Foreman Shift Weaving 1",
+    "tanggal_masuk": "2013-02-26"
+  },
+  {
+    "nik": "173700",
+    "nama": "Nazar Alam",
+    "bagian": "Gudang",
+    "jabatan": "Foreman Gudang Barang Jadi",
+    "tanggal_masuk": "2017-09-07"
+  },
+  {
+    "nik": "203856",
+    "nama": "Nedi",
+    "bagian": "Research and Development",
+    "jabatan": "Operator Jahit",
+    "tanggal_masuk": "2020-12-07"
+  },
+  {
+    "nik": "244022",
+    "nama": "Nendi Irawan",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Kebersihan Weaving 1",
+    "tanggal_masuk": "2024-10-01"
+  },
+  {
+    "nik": "254101",
+    "nama": "Neneng Fitriana Budiarti",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-07-07"
+  },
+  {
+    "nik": "183758",
+    "nama": "Nofit Fajar Susanto",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Listrik NS Weaving 1",
+    "tanggal_masuk": "2018-07-27"
+  },
+  {
+    "nik": "254126",
+    "nama": "Nurhadi Gumilar",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Pencelupan)",
+    "tanggal_masuk": "2025-09-15"
+  },
+  {
+    "nik": "244012",
+    "nama": "Nurhayati Wawan",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Inspecting Grey",
+    "tanggal_masuk": "2024-09-03"
+  },
+  {
+    "nik": "243993",
+    "nama": "Nurisa Layla Imtihana",
+    "bagian": "Quality Control",
+    "jabatan": "Adm. Inspecting",
+    "tanggal_masuk": "2024-08-13"
+  },
+  {
+    "nik": "133320",
+    "nama": "Nurohman",
+    "bagian": "Finishing",
+    "jabatan": "Foreman Finishing",
+    "tanggal_masuk": "2013-10-26"
+  },
+  {
+    "nik": "143360",
+    "nama": "Oki Suganda",
+    "bagian": "HRGA",
+    "jabatan": "Kepala Bagian HRGA",
+    "tanggal_masuk": "2014-02-10"
+  },
+  {
+    "nik": "910223",
+    "nama": "Ong Kiauw Hui",
+    "bagian": "Finance and Tax",
+    "jabatan": "Staff Ahli Bank",
+    "tanggal_masuk": "1991-05-24"
+  },
+  {
+    "nik": "244042",
+    "nama": "Pipih Hidayanti",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-10-25"
+  },
+  {
+    "nik": "173658",
+    "nama": "Piping Ruyana",
+    "bagian": "Produksi",
+    "jabatan": "Staff Ahli Listrik",
+    "tanggal_masuk": "2017-01-26"
+  },
+  {
+    "nik": "254130",
+    "nama": "Pita Ocktriny Romauly",
+    "bagian": "Marketing",
+    "jabatan": "Staf Ekspor Marketing",
+    "tanggal_masuk": "2025-09-29"
+  },
+  {
+    "nik": "880045",
+    "nama": "Poningan",
+    "bagian": "Produksi",
+    "jabatan": "QA (Quality Assurance) Officer",
+    "tanggal_masuk": "1988-03-14"
+  },
+  {
+    "nik": "143356",
+    "nama": "Raden Sentot Kumara",
+    "bagian": "HRGA",
+    "jabatan": "GA (General Affair) Officer",
+    "tanggal_masuk": "2014-02-03"
+  },
+  {
+    "nik": "254141",
+    "nama": "Rafa Andhika Mahmud",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Potong Kain Weaving 1",
+    "tanggal_masuk": "2025-11-21"
+  },
+  {
+    "nik": "244017",
+    "nama": "Rahmat",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tying Weaving 1",
+    "tanggal_masuk": "2024-09-20"
+  },
+  {
+    "nik": "143376",
+    "nama": "Rahmat Setiadi",
+    "bagian": "Persiapan",
+    "jabatan": "Foreman Persiapan",
+    "tanggal_masuk": "2014-03-08"
+  },
+  {
+    "nik": "244016",
+    "nama": "Raihan Fadhillah Muhammad",
+    "bagian": "Quality Control",
+    "jabatan": "Foreman QC",
+    "tanggal_masuk": "2024-09-16"
+  },
+  {
+    "nik": "254099",
+    "nama": "Raka Agus Rian Putra",
+    "bagian": "Production Planning Control",
+    "jabatan": "Staf PPC",
+    "tanggal_masuk": "2025-06-09"
+  },
+  {
+    "nik": "123100",
+    "nama": "Refill Calvin Maruao",
+    "bagian": "Information and Technology",
+    "jabatan": "Wakil Kepala Bagian IT",
+    "tanggal_masuk": "2012-04-11"
+  },
+  {
+    "nik": "254147",
+    "nama": "Reggin Widandy",
+    "bagian": "Utility",
+    "jabatan": "Operator Lab IPAL-Boiler",
+    "tanggal_masuk": "2025-12-11"
+  },
+  {
+    "nik": "254122",
+    "nama": "Resti Kurnia Dewi",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-09-11"
+  },
+  {
+    "nik": "062247",
+    "nama": "Retno Astuti, St",
+    "bagian": "Purchasing",
+    "jabatan": "Staff Purchasing",
+    "tanggal_masuk": "2006-07-03"
+  },
+  {
+    "nik": "153505",
+    "nama": "Reza Al Imami",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Warping (Depan)",
+    "tanggal_masuk": "2015-09-14"
+  },
+  {
+    "nik": "193820",
+    "nama": "Reza Fauzi",
+    "bagian": "Utility",
+    "jabatan": "Kepala Regu IPAL-Boiler",
+    "tanggal_masuk": "2019-06-26"
+  },
+  {
+    "nik": "244043",
+    "nama": "Ria Yuliantini",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-11-26"
+  },
+  {
+    "nik": "243958",
+    "nama": "Rian Kusuma",
+    "bagian": "Finishing",
+    "jabatan": "Operator Bakar Bulu",
+    "tanggal_masuk": "2024-05-06"
+  },
+  {
+    "nik": "203837",
+    "nama": "Ribut Isnan Khamidi",
+    "bagian": "Utility",
+    "jabatan": "Operator Listrik Utility",
+    "tanggal_masuk": "2020-06-29"
+  },
+  {
+    "nik": "243957",
+    "nama": "Ricky Firmansyah",
+    "bagian": "Utility",
+    "jabatan": "Operator MTC IPAL-Boiler",
+    "tanggal_masuk": "2024-04-26"
+  },
+  {
+    "nik": "254146",
+    "nama": "Rifky Apriliawan",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Potong Kain Weaving 1",
+    "tanggal_masuk": "2025-12-01"
+  },
+  {
+    "nik": "254151",
+    "nama": "Rifqi Hirawan",
+    "bagian": "Utility",
+    "jabatan": "Adm. IPAL-Boiler",
+    "tanggal_masuk": "2025-12-31"
+  },
+  {
+    "nik": "213901",
+    "nama": "Riki",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tying Weaving 1",
+    "tanggal_masuk": "2021-12-27"
+  },
+  {
+    "nik": "244026",
+    "nama": "Rindi Anggraeni",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-10-03"
+  },
+  {
+    "nik": "203836",
+    "nama": "Risal Syahrial",
+    "bagian": "Research and Development",
+    "jabatan": "Foreman R&D",
+    "tanggal_masuk": "2020-06-24"
+  },
+  {
+    "nik": "173653",
+    "nama": "Risky Ismayarni",
+    "bagian": "Gudang",
+    "jabatan": "Staff Gudang Pendukung Produksi",
+    "tanggal_masuk": "2017-01-09"
+  },
+  {
+    "nik": "243983",
+    "nama": "Rismawati",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Nyucuk",
+    "tanggal_masuk": "2024-07-19"
+  },
+  {
+    "nik": "254094",
+    "nama": "Risna Noviani",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-05-29"
+  },
+  {
+    "nik": "213875",
+    "nama": "Rissal Risandi",
+    "bagian": "Utility",
+    "jabatan": "Staff Utility",
+    "tanggal_masuk": "2021-10-28"
+  },
+  {
+    "nik": "223925",
+    "nama": "Rita Nuryani",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2022-07-18"
+  },
+  {
+    "nik": "244006",
+    "nama": "Rita Rohimah",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-08-26"
+  },
+  {
+    "nik": "254095",
+    "nama": "Rizki Pratama Hulfalah",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Final Inspect",
+    "tanggal_masuk": "2025-05-29"
+  },
+  {
+    "nik": "264153",
+    "nama": "Rizki Ramadhan Yusuf",
+    "bagian": "Information and Technology",
+    "jabatan": "Staff IT",
+    "tanggal_masuk": "2026-01-05"
+  },
+  {
+    "nik": "243994",
+    "nama": "Rizky Juliana Rahmat",
+    "bagian": "Gudang",
+    "jabatan": "Operator Gudang Barang Jadi",
+    "tanggal_masuk": "2024-08-14"
+  },
+  {
+    "nik": "254132",
+    "nama": "Rohaeti",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Inspecting Grey",
+    "tanggal_masuk": "2025-09-29"
+  },
+  {
+    "nik": "254103",
+    "nama": "Rohayati",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-07-15"
+  },
+  {
+    "nik": "082553",
+    "nama": "Rohman Sulaeman",
+    "bagian": "Weaving 2",
+    "jabatan": "Kepala Regu MTC NS Weaving 2",
+    "tanggal_masuk": "2012-08-06"
+  },
+  {
+    "nik": "223924",
+    "nama": "Rosmawati",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2022-07-18"
+  },
+  {
+    "nik": "143447",
+    "nama": "Rovih Budiana Gantina",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Pencelupan)",
+    "tanggal_masuk": "2014-10-31"
+  },
+  {
+    "nik": "173709",
+    "nama": "Rudi Maulana",
+    "bagian": "Persiapan",
+    "jabatan": "Wa. Ka. Bag Operasional Persiapan",
+    "tanggal_masuk": "2017-10-30"
+  },
+  {
+    "nik": "133303",
+    "nama": "Rusnadi Permana",
+    "bagian": "Research and Development",
+    "jabatan": "Operator Jahit",
+    "tanggal_masuk": "2013-09-14"
+  },
+  {
+    "nik": "123171",
+    "nama": "Rusnendra (Dira)",
+    "bagian": "HRGA",
+    "jabatan": "Pengawas SDM Senior",
+    "tanggal_masuk": "2012-11-26"
+  },
+  {
+    "nik": "183810",
+    "nama": "Saefuloh",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Penganjian)",
+    "tanggal_masuk": "2018-11-30"
+  },
+  {
+    "nik": "244010",
+    "nama": "Salma Fauziyyah",
+    "bagian": "Gudang",
+    "jabatan": "Adm. Gudang Barang Jadi",
+    "tanggal_masuk": "2024-09-02"
+  },
+  {
+    "nik": "254074",
+    "nama": "Salsabila",
+    "bagian": "Produksi",
+    "jabatan": "Assistant Factory Manager",
+    "tanggal_masuk": "2025-04-07"
+  },
+  {
+    "nik": "183753",
+    "nama": "Sandi Gunawan",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Warping (Belakang)",
+    "tanggal_masuk": "2018-07-20"
+  },
+  {
+    "nik": "254100",
+    "nama": "Sandy Irianto",
+    "bagian": "Gudang",
+    "jabatan": "Teknisi Forklift",
+    "tanggal_masuk": "2025-07-04"
+  },
+  {
+    "nik": "072391",
+    "nama": "Sarimin",
+    "bagian": "HRGA",
+    "jabatan": "Driver",
+    "tanggal_masuk": "2009-08-18"
+  },
+  {
+    "nik": "254067",
+    "nama": "Sartini",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-02-17"
+  },
+  {
+    "nik": "153504",
+    "nama": "Sely Afriyani",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Winding",
+    "tanggal_masuk": "2015-09-14"
+  },
+  {
+    "nik": "254061",
+    "nama": "Septi Gunawan",
+    "bagian": "Finishing",
+    "jabatan": "Operator MTC Finishing",
+    "tanggal_masuk": "2025-01-20"
+  },
+  {
+    "nik": "082604",
+    "nama": "Setyadi Widjaja",
+    "bagian": "HRGA",
+    "jabatan": "MSC Officer",
+    "tanggal_masuk": "2008-07-14"
+  },
+  {
+    "nik": "243965",
+    "nama": "Shanty Agustina",
+    "bagian": "Weaving 2",
+    "jabatan": "Operator Tenun Weaving 2",
+    "tanggal_masuk": "2024-06-03"
+  },
+  {
+    "nik": "244028",
+    "nama": "Shilvia Oktafiani",
+    "bagian": "Persiapan",
+    "jabatan": "Adm. Dyeing Sizing",
+    "tanggal_masuk": "2024-10-07"
+  },
+  {
+    "nik": "254086",
+    "nama": "Sinta Suryani",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Tes Cuci",
+    "tanggal_masuk": "2025-04-30"
+  },
+  {
+    "nik": "213866",
+    "nama": "Siti Aminah",
+    "bagian": "Weaving 2",
+    "jabatan": "Operator Tenun Weaving 2",
+    "tanggal_masuk": "2021-03-10"
+  },
+  {
+    "nik": "254068",
+    "nama": "Siti Darminah",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-02-17"
+  },
+  {
+    "nik": "254087",
+    "nama": "Siti Mariam",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Winding",
+    "tanggal_masuk": "2025-04-30"
+  },
+  {
+    "nik": "243998",
+    "nama": "Siti Nurul Syamsiah",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-08-16"
+  },
+  {
+    "nik": "254150",
+    "nama": "Siti Rubaetinnisa",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-12-23"
+  },
+  {
+    "nik": "183742",
+    "nama": "Sopiah D",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2018-07-05"
+  },
+  {
+    "nik": "860037",
+    "nama": "Sri Priyati",
+    "bagian": "Purchasing",
+    "jabatan": "Kepala Bagian Purchasing",
+    "tanggal_masuk": "1986-10-01"
+  },
+  {
+    "nik": "264160",
+    "nama": "Sri Wulandari",
+    "bagian": "Production Planning Control",
+    "jabatan": "Staff PPC Weaving,RND & Finishing",
+    "tanggal_masuk": "2026-05-12"
+  },
+  {
+    "nik": "254091",
+    "nama": "Suci Julianti",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-05-20"
+  },
+  {
+    "nik": "133272",
+    "nama": "Sulton",
+    "bagian": "Utility",
+    "jabatan": "Kepala Regu Bengkel",
+    "tanggal_masuk": "2013-06-22"
+  },
+  {
+    "nik": "203855",
+    "nama": "Sumardiyanto",
+    "bagian": "Utility",
+    "jabatan": "Operator Listrik Utility",
+    "tanggal_masuk": "2020-11-23"
+  },
+  {
+    "nik": "213889",
+    "nama": "Sumarna",
+    "bagian": "Weaving 2",
+    "jabatan": "Operator Potong Kain Weaving 2",
+    "tanggal_masuk": "2021-11-29"
+  },
+  {
+    "nik": "960714",
+    "nama": "Sumiyanto",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator MTC Shift Weaving 1",
+    "tanggal_masuk": "1996-11-08"
+  },
+  {
+    "nik": "254117",
+    "nama": "Supriatna",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Final Inspect",
+    "tanggal_masuk": "2025-08-20"
+  },
+  {
+    "nik": "880061",
+    "nama": "Supriyanto",
+    "bagian": "Produksi",
+    "jabatan": "Pengawas Proses Weaving",
+    "tanggal_masuk": "1988-09-20"
+  },
+  {
+    "nik": "092738",
+    "nama": "Suryadi",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Final Inspect",
+    "tanggal_masuk": "2013-03-11"
+  },
+  {
+    "nik": "163617",
+    "nama": "Suryaman",
+    "bagian": "Gudang",
+    "jabatan": "Supir Forklift Gud.Bahan Baku",
+    "tanggal_masuk": "2016-08-15"
+  },
+  {
+    "nik": "243949",
+    "nama": "Susiatun",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-01-15"
+  },
+  {
+    "nik": "880067",
+    "nama": "Syarif Hidayat",
+    "bagian": "HRGA",
+    "jabatan": "Ka Div HRGA",
+    "tanggal_masuk": "1988-12-06"
+  },
+  {
+    "nik": "254149",
+    "nama": "Syifa Alzena Joyo",
+    "bagian": "Purchasing",
+    "jabatan": "Staff Purchasing",
+    "tanggal_masuk": "2025-12-22"
+  },
+  {
+    "nik": "254113",
+    "nama": "Syifa Qurrota Ayun",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-08-04"
+  },
+  {
+    "nik": "243984",
+    "nama": "Tarman",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator MTC NS Weaving 1",
+    "tanggal_masuk": "2024-07-22"
+  },
+  {
+    "nik": "163589",
+    "nama": "Tatan Rustandi",
+    "bagian": "Gudang",
+    "jabatan": "Operator Gudang Barang Jadi",
+    "tanggal_masuk": "2016-07-19"
+  },
+  {
+    "nik": "123068",
+    "nama": "Tatang Taryana",
+    "bagian": "HRGA",
+    "jabatan": "Driver",
+    "tanggal_masuk": "2012-02-25"
+  },
+  {
+    "nik": "910224",
+    "nama": "Taufik Djajaprawira",
+    "bagian": "Accounting",
+    "jabatan": "Manager Finance & Accounting",
+    "tanggal_masuk": "1991-06-01"
+  },
+  {
+    "nik": "183805",
+    "nama": "Taufik Hidayat",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Warping (Belakang)",
+    "tanggal_masuk": "2018-11-14"
+  },
+  {
+    "nik": "243971",
+    "nama": "Tedi Nugraha",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Pencelupan)",
+    "tanggal_masuk": "2024-06-11"
+  },
+  {
+    "nik": "173681",
+    "nama": "Tedih Tarkana",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator MTC Shift Weaving 1",
+    "tanggal_masuk": "2017-03-01"
+  },
+  {
+    "nik": "254136",
+    "nama": "Theri Hendri",
+    "bagian": "HRGA",
+    "jabatan": "Operator HRGA",
+    "tanggal_masuk": "2025-10-13"
+  },
+  {
+    "nik": "243960",
+    "nama": "Tri Riyantini",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-05-13"
+  },
+  {
+    "nik": "890085",
+    "nama": "Tukijan",
+    "bagian": "Gudang",
+    "jabatan": "Operator Gudang Barang Jadi",
+    "tanggal_masuk": "1989-06-26"
+  },
+  {
+    "nik": "244025",
+    "nama": "Tuti",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-10-02"
+  },
+  {
+    "nik": "173672",
+    "nama": "Untung Riyadi",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator MTC Shift Weaving 1",
+    "tanggal_masuk": "2017-02-21"
+  },
+  {
+    "nik": "244053",
+    "nama": "Usep Hilmansyah",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Dyeing Sizing (Pencelupan)",
+    "tanggal_masuk": "2024-12-24"
+  },
+  {
+    "nik": "143422",
+    "nama": "Usep Jijin Parjiaman",
+    "bagian": "Utility",
+    "jabatan": "Operator Bengkel",
+    "tanggal_masuk": "2014-08-14"
+  },
+  {
+    "nik": "243968",
+    "nama": "Uus Suhendi",
+    "bagian": "Utility",
+    "jabatan": "Operator MTC IPAL-Boiler",
+    "tanggal_masuk": "2024-06-10"
+  },
+  {
+    "nik": "243966",
+    "nama": "Wahyu",
+    "bagian": "Weaving 2",
+    "jabatan": "Operator Potong Kain Weaving 2",
+    "tanggal_masuk": "2024-06-04"
+  },
+  {
+    "nik": "153499",
+    "nama": "Wanti",
+    "bagian": "Weaving 2",
+    "jabatan": "Operator Tenun Weaving 2",
+    "tanggal_masuk": "2015-08-31"
+  },
+  {
+    "nik": "254148",
+    "nama": "Wawan",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2025-12-08"
+  },
+  {
+    "nik": "244037",
+    "nama": "Wawan Hermawan",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Winding",
+    "tanggal_masuk": "2024-10-14"
+  },
+  {
+    "nik": "082627",
+    "nama": "Wawan Setiawan",
+    "bagian": "Quality Control",
+    "jabatan": "Support Operator Inspecting",
+    "tanggal_masuk": "2006-02-01"
+  },
+  {
+    "nik": "223909",
+    "nama": "Wawan Wandi",
+    "bagian": "Weaving 1",
+    "jabatan": "Kepala Regu Operasional Weaving 1",
+    "tanggal_masuk": "2022-02-08"
+  },
+  {
+    "nik": "092756",
+    "nama": "Wida Hanaliawati",
+    "bagian": "Marketing",
+    "jabatan": "Staf Marketing",
+    "tanggal_masuk": "2013-03-26"
+  },
+  {
+    "nik": "213880",
+    "nama": "Wida Siti Hardianti",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2021-11-15"
+  },
+  {
+    "nik": "244020",
+    "nama": "Widaningsih",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-09-26"
+  },
+  {
+    "nik": "223907",
+    "nama": "Widia Ningsih",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Inspecting Grey",
+    "tanggal_masuk": "2022-02-01"
+  },
+  {
+    "nik": "243992",
+    "nama": "WidiaNingsih",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-08-07"
+  },
+  {
+    "nik": "233943",
+    "nama": "Wijiono",
+    "bagian": "Weaving 2",
+    "jabatan": "Foreman NS Weaving 2",
+    "tanggal_masuk": "2023-12-26"
+  },
+  {
+    "nik": "082610",
+    "nama": "Wijirasidi",
+    "bagian": "Weaving 2",
+    "jabatan": "Foreman Shift Weaving 2",
+    "tanggal_masuk": "2012-10-29"
+  },
+  {
+    "nik": "940505",
+    "nama": "Winarni",
+    "bagian": "Finance and Tax",
+    "jabatan": "Staff Ahli Kas",
+    "tanggal_masuk": "1994-05-23"
+  },
+  {
+    "nik": "264155",
+    "nama": "Winda Nurfadhilla",
+    "bagian": "HRGA",
+    "jabatan": "Document Handler",
+    "tanggal_masuk": "2026-04-30"
+  },
+  {
+    "nik": "213887",
+    "nama": "Wisnu Irawan",
+    "bagian": "Weaving 1",
+    "jabatan": "Kepala Regu Operasional Weaving 1",
+    "tanggal_masuk": "2021-11-29"
+  },
+  {
+    "nik": "092745",
+    "nama": "Wiwik Saadatul Usnawiyah",
+    "bagian": "Marketing",
+    "jabatan": "Staf Marketing",
+    "tanggal_masuk": "2013-03-27"
+  },
+  {
+    "nik": "254131",
+    "nama": "Yana Mulyana",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Final Inspect",
+    "tanggal_masuk": "2025-09-29"
+  },
+  {
+    "nik": "163613",
+    "nama": "Yana Waryana",
+    "bagian": "Weaving 2",
+    "jabatan": "Operator Tying Weaving 2",
+    "tanggal_masuk": "2016-08-08"
+  },
+  {
+    "nik": "082505",
+    "nama": "Yanto Friyanto",
+    "bagian": "Utility",
+    "jabatan": "Operator IPAL-Boiler",
+    "tanggal_masuk": "2006-01-14"
+  },
+  {
+    "nik": "113027",
+    "nama": "Yayan Sopian",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Warping (Belakang)",
+    "tanggal_masuk": "2011-11-10"
+  },
+  {
+    "nik": "213892",
+    "nama": "Yeni Haryati",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2021-11-29"
+  },
+  {
+    "nik": "173693",
+    "nama": "Yoansyah",
+    "bagian": "Persiapan",
+    "jabatan": "Operator Warping (Belakang)",
+    "tanggal_masuk": "2017-04-21"
+  },
+  {
+    "nik": "082581",
+    "nama": "Yoga Akbar",
+    "bagian": "Persiapan",
+    "jabatan": "Kepala Regu Warping",
+    "tanggal_masuk": "2008-06-09"
+  },
+  {
+    "nik": "900098",
+    "nama": "Yosefati Maruao",
+    "bagian": "Produksi",
+    "jabatan": "Staff Ahli SDM Produksi",
+    "tanggal_masuk": "1990-01-12"
+  },
+  {
+    "nik": "082574",
+    "nama": "Yudi Hermawan",
+    "bagian": "Quality Control",
+    "jabatan": "Kepala Regu Final Inspect QC",
+    "tanggal_masuk": "2006-02-04"
+  },
+  {
+    "nik": "244008",
+    "nama": "Yuli Yulianti",
+    "bagian": "Weaving 1",
+    "jabatan": "Operator Tenun Weaving 1",
+    "tanggal_masuk": "2024-08-26"
+  },
+  {
+    "nik": "243952",
+    "nama": "Yusup Sopian",
+    "bagian": "Quality Control",
+    "jabatan": "Operator Final Inspect",
+    "tanggal_masuk": "2024-01-29"
+  }
+]
