@@ -17,12 +17,12 @@
     <div class="progress-wrap"><div class="progress-meta"><span>Progres pengisian</span><span id="progressText">0%</span></div><div class="progress"><span id="progressBar"></span></div></div>
     <section class="card hero"><div class="eyebrow">Form Penilaian</div><h2>Evaluasi kinerja karyawan</h2><p>Lengkapi identitas, berikan nilai 1–5 pada setiap pernyataan, lalu tuliskan evaluasi secara objektif.</p></section>
     <form id="assessment" action="https://docs.google.com/forms/d/e/1FAIpQLSeqfObOgx0zIfWg45P78LC7snp2hoDtyxshKHZAOf0kZ7JVJA/formResponse" method="POST" target="submitTarget">
-      <section class="card"><div class="section-head"><h2>Identitas Karyawan</h2><p>Cari nama karyawan. NIK, bagian, dan jabatan akan terisi otomatis.</p></div>
+      <section class="card"><div class="section-head"><h2>Identitas Karyawan</h2><p>Pilih bagian terlebih dahulu, kemudian pilih nama karyawan. Data lainnya akan terisi otomatis.</p></div>
         <div class="grid">
-          <div class="field full search-wrap"><label for="nama">Nama Karyawan <span class="req">*</span></label><input class="input" id="nama" name="entry.2005620554" autocomplete="off" placeholder="Ketik minimal 2 huruf" required><div id="results" class="results"></div></div>
+          <div class="field"><label for="bagian">Bagian <span class="req">*</span></label><select class="select" id="bagian" name="entry.1166974658" required><option value="">Memuat daftar bagian…</option></select></div>
+          <div class="field"><label for="nama">Nama Karyawan <span class="req">*</span></label><select class="select" id="nama" required disabled><option value="">Pilih bagian terlebih dahulu</option></select><input type="hidden" id="namaSubmit" name="entry.2005620554"></div>
           <div class="field"><label for="nik">NIK <span class="req">*</span></label><input class="input" id="nik" name="entry.1045781291" readonly required></div>
-          <div class="field"><label for="bagian">Bagian</label><input class="input" id="bagian" name="entry.1166974658" readonly></div>
-          <div class="field full"><label for="jabatan">Jabatan <span class="req">*</span></label><input class="input" id="jabatan" name="entry.1065046570" readonly required></div>
+          <div class="field"><label for="jabatan">Jabatan <span class="req">*</span></label><input class="input" id="jabatan" name="entry.1065046570" readonly required></div>
           <div class="field"><label for="tanggalMasuk">Tanggal Masuk Kerja</label><input class="input" id="tanggalMasuk" name="entry.884106925" type="text" readonly placeholder="Terisi otomatis"></div>
           <div class="field"><label for="atasan">Nama Atasan (Penilai)</label><input class="input" id="atasan" name="entry.839337160"></div>
           <div class="field"><label for="periode">Periode Penilaian</label><input class="input" id="periode" name="entry.1472868499" placeholder="Contoh: 2026"></div>
@@ -43,7 +43,7 @@
     <iframe name="submitTarget" id="submitTarget" hidden></iframe>
   </main>
   <script>
-    const API='https://script.google.com/macros/s/AKfycbyTuNaz84kQneWMAB8qrh-Ppfu5KWjCmcWBDDMi1jq6I_yJ2yG6lUH_CxbngS-DTFte6w/exec';
+    const EMPLOYEE_DATA_URL='./data/karyawan.json';
     const groups=[
       {title:'Competence / Kompetensi',desc:'Kemampuan melaksanakan pekerjaan sesuai jabatan dan tanggung jawab.',items:[['1857667590','Memahami tugas dan tanggung jawab sesuai dengan jabatannya.'],['844266000','Memiliki pengetahuan dan keterampilan yang dibutuhkan dalam pekerjaan.'],['1965947496','Mampu menyelesaikan pekerjaan sesuai target dan standar yang ditetapkan (KPI).'],['1417398891','Mampu bekerja secara efektif dan efisien.'],['1410102755','Mampu menyelesaikan masalah yang berkaitan dengan pekerjaannya.'],['858673008','Mampu belajar dan meningkatkan kemampuan/kompetensi.']]},
       {title:'Character / Karakter',desc:'Sikap, integritas, kedisiplinan, dan tanggung jawab dalam bekerja.',items:[['1815183268','Memiliki tanggung jawab terhadap pekerjaan yang diberikan.'],['1102258062','Disiplin dalam waktu, aturan, dan ketentuan perusahaan.'],['1738818311','Menunjukkan kejujuran dan integritas dalam bekerja.'],['878586585','Menjaga etika dan sikap profesional di lingkungan kerja.'],['656867755','Konsisten dalam menjalankan tugas dan komitmen yang diberikan.'],['1924569436','Dapat dipercaya dalam menjalankan pekerjaan dan tanggung jawab.']]},
@@ -51,19 +51,47 @@
       {title:'Candor / Keterbukaan',desc:'Keterbukaan, keberanian menyampaikan informasi, komunikasi, dan menerima masukan.',items:[['1334159272','Menyampaikan informasi pekerjaan secara jujur dan terbuka.'],['92366052','Berani menyampaikan masalah atau kendala dalam pekerjaan.'],['1634276528','Mampu memberikan masukan atau pendapat secara baik dan profesional.'],['743255477','Menerima kritik dan saran dengan sikap terbuka.'],['840911434','Mampu mengakui kesalahan dan bertanggung jawab memperbaikinya.'],['1027461611','Berkomunikasi jelas dan tidak menyembunyikan informasi penting terkait pekerjaan.']]}
     ];
     const container=document.querySelector('#ratingSections');let no=1;groups.forEach(group=>{const section=document.createElement('section');section.className='card';section.innerHTML=`<div class="section-head"><h2>${group.title}</h2><p>${group.desc}</p></div>`;group.items.forEach(([id,text])=>{const n=no++;const q=document.createElement('div');q.className='question';q.innerHTML=`<div class="label">${n}. ${text} <span class="req">*</span></div><div class="scale">${[1,2,3,4,5].map(v=>`<span><input id="q${id}_${v}" type="radio" name="entry.${id}" value="${v}" required><label for="q${id}_${v}">${v}</label></span>`).join('')}</div><div class="legend"><span>Perlu perbaikan</span><span>Sangat baik</span></div>`;section.appendChild(q)});container.appendChild(section)});
-    const form=document.querySelector('#assessment'),nama=document.querySelector('#nama'),nik=document.querySelector('#nik'),bagian=document.querySelector('#bagian'),jabatan=document.querySelector('#jabatan'),tanggalMasuk=document.querySelector('#tanggalMasuk'),results=document.querySelector('#results'),status=document.querySelector('#status'),submitBtn=document.querySelector('#submitBtn');let selected='',timer,submitted=false,searchRequest=0;const searchCache=new Map();
+    const form=document.querySelector('#assessment'),nama=document.querySelector('#nama'),namaSubmit=document.querySelector('#namaSubmit'),nik=document.querySelector('#nik'),bagian=document.querySelector('#bagian'),jabatan=document.querySelector('#jabatan'),tanggalMasuk=document.querySelector('#tanggalMasuk'),status=document.querySelector('#status'),submitBtn=document.querySelector('#submitBtn');let selected='',submitted=false,employees=[];
     document.querySelector('#tanggalIsi').value=new Date().toISOString().slice(0,10);
-    function api(params){return new Promise((resolve,reject)=>{const cb='cb_'+Date.now()+'_'+Math.random().toString(36).slice(2);const s=document.createElement('script');const clean=()=>{delete window[cb];s.remove()};window[cb]=v=>{clean();v.ok?resolve(v.data):reject(new Error(v.message))};s.onerror=()=>{clean();reject(new Error('Database karyawan tidak dapat dihubungi.'))};s.src=API+'?'+new URLSearchParams({...params,callback:cb});document.body.appendChild(s)})}
-    function showStatus(text,type){status.textContent=text;status.className='status show '+type}function clearEmployee(){selected='';nik.value='';bagian.value='';jabatan.value='';tanggalMasuk.value='';delete tanggalMasuk.dataset.iso}
+    function showStatus(text,type){status.textContent=text;status.className='status show '+type}
+    function clearEmployee(){selected='';namaSubmit.value='';nik.value='';jabatan.value='';tanggalMasuk.value='';delete tanggalMasuk.dataset.iso}
     function formatDateId(iso){if(!/^\d{4}-\d{2}-\d{2}$/.test(iso||''))return iso||'';const [year,month,day]=iso.split('-');return `${day}/${month}/${year}`}
-    function renderResults(rows){results.innerHTML=rows.length?'':'<div class="empty">Nama tidak ditemukan.</div>';rows.forEach(row=>{const b=document.createElement('button');b.type='button';b.className='result';b.textContent=row.nama;b.onclick=()=>choose(row);results.appendChild(b)})}
-    nama.addEventListener('input',()=>{clearEmployee();clearTimeout(timer);const q=nama.value.trim();const key=q.toLocaleLowerCase('id-ID');const current=++searchRequest;if(q.length<2){results.className='results';return}results.innerHTML='<div class="empty">Mencari…</div>';results.className='results show';if(searchCache.has(key)){renderResults(searchCache.get(key));return}timer=setTimeout(async()=>{try{const rows=await api({action:'search',q});if(current!==searchRequest)return;searchCache.set(key,rows);renderResults(rows)}catch(e){if(current===searchRequest)showStatus(e.message,'error')}},400)});
-    function choose(row){nama.value=row.nama;results.className='results';selected=row.nama;nik.value=row.nik;bagian.value=row.bagian;jabatan.value=row.jabatan;tanggalMasuk.dataset.iso=row.tanggalMasuk||'';tanggalMasuk.value=formatDateId(row.tanggalMasuk);updateProgress()}
-    document.addEventListener('click',e=>{if(!e.target.closest('.search-wrap'))results.className='results'});
+    function addOption(select,value,text){const option=document.createElement('option');option.value=value;option.textContent=text;select.appendChild(option)}
+    async function loadEmployees(){
+      try{
+        const response=await fetch(EMPLOYEE_DATA_URL,{cache:'no-store'});
+        if(!response.ok)throw new Error('File data karyawan tidak ditemukan.');
+        employees=await response.json();
+        const departments=[...new Set(employees.map(row=>String(row.bagian||'').trim()).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'id-ID',{sensitivity:'base'}));
+        bagian.innerHTML='<option value="">Pilih bagian</option>';
+        departments.forEach(value=>addOption(bagian,value,value));
+      }catch(error){
+        bagian.innerHTML='<option value="">Data karyawan gagal dimuat</option>';
+        bagian.disabled=true;
+        showStatus(error.message||'Data karyawan gagal dimuat.','error');
+      }
+    }
+    bagian.addEventListener('change',()=>{
+      clearEmployee();
+      nama.innerHTML='<option value="">Pilih nama karyawan</option>';
+      if(!bagian.value){nama.disabled=true;nama.innerHTML='<option value="">Pilih bagian terlebih dahulu</option>';updateProgress();return}
+      const rows=employees.filter(row=>String(row.bagian||'').trim()===bagian.value).sort((a,b)=>String(a.nama).localeCompare(String(b.nama),'id-ID',{sensitivity:'base'}));
+      rows.forEach(row=>addOption(nama,String(row.nik),`${row.nama} — ${row.nik}`));
+      nama.disabled=false;
+      updateProgress();
+    });
+    nama.addEventListener('change',()=>{
+      clearEmployee();
+      if(!nama.value){updateProgress();return}
+      const row=employees.find(item=>String(item.nik)===nama.value&&String(item.bagian||'').trim()===bagian.value);
+      if(!row){showStatus('Data karyawan tidak ditemukan pada bagian yang dipilih.','error');updateProgress();return}
+      selected=String(row.nik);namaSubmit.value=row.nama;nik.value=row.nik;jabatan.value=row.jabatan||'';tanggalMasuk.dataset.iso=row.tanggal_masuk||'';tanggalMasuk.value=formatDateId(row.tanggal_masuk);updateProgress()
+    });
     function updateProgress(){const required=[...form.querySelectorAll('[required]')];const done=required.filter(e=>e.type==='radio'?[...form.querySelectorAll(`[name="${e.name}"]`)].some(r=>r.checked):e.value.trim()).length;const unique=required.filter((e,i,a)=>e.type!=='radio'||a.findIndex(x=>x.name===e.name)===i);const doneUnique=unique.filter(e=>e.type==='radio'?[...form.querySelectorAll(`[name="${e.name}"]`)].some(r=>r.checked):e.value.trim()).length;const pct=Math.round(doneUnique/unique.length*100);document.querySelector('#progressBar').style.width=pct+'%';document.querySelector('#progressText').textContent=pct+'%'}
     form.addEventListener('input',updateProgress);form.addEventListener('change',updateProgress);updateProgress();
     function splitGoogleDate(input,id){const iso=input.dataset.iso||input.value;if(!iso)return;const [year,month,day]=iso.split('-');[['year',year],['month',Number(month)],['day',Number(day)]].forEach(([part,value])=>{const hidden=document.createElement('input');hidden.type='hidden';hidden.name=`entry.${id}_${part}`;hidden.value=value;form.appendChild(hidden)});input.disabled=true}
-    form.addEventListener('submit',e=>{if(!selected){e.preventDefault();showStatus('Pilih nama dari hasil pencarian agar identitas terverifikasi.','error');nama.focus();return}splitGoogleDate(document.querySelector('#tanggalMasuk'),'884106925');splitGoogleDate(document.querySelector('#tanggalIsi'),'2104804027');submitted=true;submitBtn.disabled=true;submitBtn.textContent='Mengirim…';setTimeout(()=>{showStatus('Penilaian berhasil dikirim. Terima kasih.','ok');submitBtn.textContent='Terkirim';form.querySelectorAll('input,select,textarea,button').forEach(el=>el.disabled=true);window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'})},1800)});
+    form.addEventListener('submit',e=>{if(!selected){e.preventDefault();showStatus('Pilih bagian dan nama karyawan terlebih dahulu.','error');nama.focus();return}splitGoogleDate(document.querySelector('#tanggalMasuk'),'884106925');splitGoogleDate(document.querySelector('#tanggalIsi'),'2104804027');submitted=true;submitBtn.disabled=true;submitBtn.textContent='Mengirim…';setTimeout(()=>{showStatus('Penilaian berhasil dikirim. Terima kasih.','ok');submitBtn.textContent='Terkirim';form.querySelectorAll('input,select,textarea,button').forEach(el=>el.disabled=true);window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'})},1800)});
+    loadEmployees();
   </script>
 </body>
 </html>
