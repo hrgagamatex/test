@@ -38,7 +38,7 @@
         <div class="field"><label for="saran">29. Apa saran Anda agar karyawan tersebut dapat bekerja lebih baik ke depannya? <span class="req">*</span></label><textarea class="textarea" id="saran" name="entry.1093293609" required></textarea></div>
       </section>
       <section class="card"><div class="actions"><button class="btn" id="submitBtn" type="submit">Kirim Penilaian</button></div><div id="status" class="status" role="status" aria-live="polite"></div><p class="privacy">Jawaban akan dikirim ke Google Form Penilaian Kinerja Karyawan.</p></section>
-      <input type="hidden" name="fvv" value="1"><input type="hidden" name="pageHistory" value="0">
+      <input type="hidden" name="fvv" value="1"><input type="hidden" name="pageHistory" value="0,1,2,3,4">
     </form>
     <iframe name="submitTarget" id="submitTarget" hidden></iframe>
   </main>
@@ -90,7 +90,7 @@
     function updateProgress(){const required=[...form.querySelectorAll('[required]')];const done=required.filter(e=>e.type==='radio'?[...form.querySelectorAll(`[name="${e.name}"]`)].some(r=>r.checked):e.value.trim()).length;const unique=required.filter((e,i,a)=>e.type!=='radio'||a.findIndex(x=>x.name===e.name)===i);const doneUnique=unique.filter(e=>e.type==='radio'?[...form.querySelectorAll(`[name="${e.name}"]`)].some(r=>r.checked):e.value.trim()).length;const pct=Math.round(doneUnique/unique.length*100);document.querySelector('#progressBar').style.width=pct+'%';document.querySelector('#progressText').textContent=pct+'%'}
     form.addEventListener('input',updateProgress);form.addEventListener('change',updateProgress);updateProgress();
     function splitGoogleDate(input,id){const iso=input.dataset.iso||input.value;if(!iso)return;const [year,month,day]=iso.split('-');[['year',year],['month',Number(month)],['day',Number(day)]].forEach(([part,value])=>{const hidden=document.createElement('input');hidden.type='hidden';hidden.name=`entry.${id}_${part}`;hidden.value=value;form.appendChild(hidden)});input.disabled=true}
-    form.addEventListener('submit',e=>{if(!selected){e.preventDefault();showStatus('Pilih bagian dan nama karyawan terlebih dahulu.','error');nama.focus();return}splitGoogleDate(document.querySelector('#tanggalMasuk'),'884106925');splitGoogleDate(document.querySelector('#tanggalIsi'),'2104804027');submitted=true;submitBtn.disabled=true;submitBtn.textContent='Mengirim…';setTimeout(()=>{showStatus('Penilaian berhasil dikirim. Terima kasih.','ok');submitBtn.textContent='Terkirim';form.querySelectorAll('input,select,textarea,button').forEach(el=>el.disabled=true);window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'})},1800)});
+    form.addEventListener('submit',e=>{if(!selected){e.preventDefault();showStatus('Pilih bagian dan nama karyawan terlebih dahulu.','error');nama.focus();return}splitGoogleDate(document.querySelector('#tanggalMasuk'),'884106925');splitGoogleDate(document.querySelector('#tanggalIsi'),'2104804027');submitted=true;submitBtn.disabled=true;submitBtn.textContent='Mengirim…';setTimeout(()=>{showStatus('Jawaban telah dikirim ke Google Form. Silakan periksa tab Jawaban untuk memastikan data sudah tercatat.','ok');submitBtn.textContent='Terkirim';form.querySelectorAll('input,select,textarea,button').forEach(el=>el.disabled=true);window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'})},1800)});
     loadEmployees();
   </script>
 </body>
