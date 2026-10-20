@@ -151,7 +151,7 @@ Pastikan seluruh pertanyaan telah dijawab sebelum menekan tombol Submit/ Kirim.<
     function addOption(select,value,text){const option=document.createElement('option');option.value=value;option.textContent=text;select.appendChild(option)}
     function normalizeDepartment(value){
       const department=String(value||'').trim();
-      return /^(finance|accounting|finance\s*&\s*accounting)$/i.test(department)?'Finance & Accounting':department;
+      return /^(finance and tax|accounting|finance\s*&\s*accounting)$/i.test(department)?'Finance & Accounting':department;
     }
     async function loadEmployees(){
       try{
