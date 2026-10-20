@@ -88,8 +88,41 @@ function perbaruiDashboardPenilaian() {
   dash.setColumnWidths(3,6,110);
   dash.getRange('A18:A41').setWrap(true);
   dash.setFrozenRows(2);
+  sesuaikanRumusDashboard_(dash);
   dash.insertChart(dash.newChart().setChartType(Charts.ChartType.COLUMN).addRange(dash.getRange('A10:B14')).setPosition(10,10,0,0).setOption('title','Rata-rata per aspek — sesuai filter divisi').setOption('vAxis',{viewWindow:{min:0,max:5}}).setOption('legend',{position:'none'}).setOption('colors',['#0b73e0']).setOption('width',780).setOption('height',350).build());
   dash.insertChart(dash.newChart().setChartType(Charts.ChartType.BAR).addRange(dash.getRange('A17:A41')).addRange(dash.getRange('D17:H41')).setPosition(29,10,0,0).setOption('title','Distribusi jawaban 1–5 per pertanyaan').setOption('isStacked',true).setOption('width',1000).setOption('height',900).setOption('legend',{position:'top'}).setOption('colors',['#d92d20','#f79009','#eac54f','#32a879','#0b73e0']).build());
   SpreadsheetApp.flush();
   return 'Dashboard diperbarui: '+buckets['Semua divisi'].count+' penilaian.';
+}
+
+/** Jalankan ini untuk memperbaiki dashboard yang sudah dibuat. */
+function perbaikiRumusDashboard() {
+  var book = SpreadsheetApp.openById('1eMQcwebDDh0uXQRdj-JYm7uqRjrmnJTyirNBPM299hc');
+  var dash = book.getSheetByName('Dashboard Penilaian');
+  if (!dash || dash.getRange('A1').getNote() !== 'GAMATEX_DASHBOARD_V1') throw new Error('Jalankan perbaruiDashboardPenilaian terlebih dahulu.');
+  sesuaikanRumusDashboard_(dash);
+}
+function sesuaikanRumusDashboard_(dash) {
+  var probe = dash.getRange('Z1');
+  var separator = ',';
+  try {
+    probe.setFormula('=IF(TRUE,1,0)');
+    SpreadsheetApp.flush();
+    if (probe.getValue() !== 1) {
+      separator = ';';
+      probe.setFormula('=IF(TRUE;1;0)');
+      SpreadsheetApp.flush();
+      if (probe.getValue() !== 1) throw new Error('Tidak dapat menentukan pemisah rumus Sheet.');
+    }
+  } finally { probe.clearContent(); }
+  var addresses = ['B4','B5','B11','B12','B13','B14','A18','B18'];
+  addresses.forEach(function(address) {
+    var cell = dash.getRange(address), formula = cell.getFormula();
+    if (formula) cell.setFormula(separator === ';' ? formula.replace(/,/g,';') : formula.replace(/;/g,','));
+  });
+  SpreadsheetApp.flush();
+  var errors = addresses.filter(function(address) {
+    return dash.getRange(address).getDisplayValue().charAt(0) === '#';
+  });
+  if (errors.length) throw new Error('Masih ada kesalahan rumus pada '+errors.join(', ')+'. Periksa pesan pada sel tersebut.');
 }
