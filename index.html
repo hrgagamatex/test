@@ -149,12 +149,16 @@ Pastikan seluruh pertanyaan telah dijawab sebelum menekan tombol Submit/ Kirim.<
     function clearEmployee(){selected='';namaSubmit.value='';nik.value='';jabatan.value='';tanggalMasuk.value='';delete tanggalMasuk.dataset.iso}
     function formatDateId(iso){if(!/^\d{4}-\d{2}-\d{2}$/.test(iso||''))return iso||'';const [year,month,day]=iso.split('-');return `${day}/${month}/${year}`}
     function addOption(select,value,text){const option=document.createElement('option');option.value=value;option.textContent=text;select.appendChild(option)}
+    function normalizeDepartment(value){
+      const department=String(value||'').trim();
+      return /^(finance|accounting|finance\s*&\s*accounting)$/i.test(department)?'Finance & Accounting':department;
+    }
     async function loadEmployees(){
       try{
         const response=await fetch(EMPLOYEE_DATA_URL,{cache:'no-store'});
         if(!response.ok)throw new Error('File data karyawan tidak ditemukan.');
         employees=await response.json();
-        const departments=[...new Set(employees.map(row=>String(row.bagian||'').trim()).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'id-ID',{sensitivity:'base'}));
+        const departments=[...new Set(employees.map(row=>normalizeDepartment(row.bagian)).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'id-ID',{sensitivity:'base'}));
         bagian.innerHTML='<option value="">Pilih bagian</option>';
         departments.forEach(value=>addOption(bagian,value,value));
       }catch(error){
@@ -186,7 +190,7 @@ Pastikan seluruh pertanyaan telah dijawab sebelum menekan tombol Submit/ Kirim.<
       clearEmployee();
       const query=normalize(nama.value);
       if(!bagian.value||query.length<2){results.className='results';results.innerHTML='';updateProgress();return}
-      const rows=employees.filter(row=>String(row.bagian||'').trim()===bagian.value&&normalize(row.nama).includes(query)).sort((a,b)=>String(a.nama).localeCompare(String(b.nama),'id-ID',{sensitivity:'base'}));
+      const rows=employees.filter(row=>normalizeDepartment(row.bagian)===bagian.value&&normalize(row.nama).includes(query)).sort((a,b)=>String(a.nama).localeCompare(String(b.nama),'id-ID',{sensitivity:'base'}));
       renderEmployeeResults(rows);updateProgress()
     });
     document.addEventListener('click',event=>{if(!event.target.closest('.search-wrap'))results.className='results'});
