@@ -147,13 +147,58 @@ function sesuaikanRumusDashboard_(dash) {
       ['A','B','C','D'].forEach(function(col){addresses.push(col+r);});
     }
   }
-  addresses.forEach(function(address) {
-    var cell = dash.getRange(address), formula = cell.getFormula();
-    if (formula) cell.setFormula(separator === ';' ? formula.replace(/,/g,';') : formula.replace(/;/g,','));
+  // Baca sekaligus agar tidak melakukan ratusan panggilan sel satu per satu.
+  var formulas = dash.getRange('A1:D800').getFormulas();
+  function adjusted(formula) {
+    return separator === ';' ? formula.replace(/,/g,';') : formula.replace(/;/g,',');
+  }
+  ['B4','B5','B11','B12','B13','B14','A18','B18'].forEach(function(address) {
+    var cell=dash.getRange(address), formula=cell.getFormula();
+    if(formula) cell.setFormula(adjusted(formula));
   });
+  for(var n=0;n<24;n++){
+    var first=47+n*30;
+    var block=formulas.slice(first-1,first+4);
+    if(block.some(function(row){return row.some(Boolean);})) {
+      dash.getRange(first,1,5,4).setFormulas(block.map(function(row){return row.map(adjusted);}));
+    }
+  }
   SpreadsheetApp.flush();
-  var errors = addresses.filter(function(address) {
-    return dash.getRange(address).getDisplayValue().charAt(0) === '#';
+  var values=dash.getRange('A1:D800').getDisplayValues();
+  var errors=addresses.filter(function(address){
+    var match=address.match(/^([A-D])([0-9]+)$/);
+    return values[Number(match[2])-1][match[1].charCodeAt(0)-65].charAt(0)==='#';
   });
-  if (errors.length) throw new Error('Masih ada kesalahan rumus pada '+errors.join(', ')+'. Periksa pesan pada sel tersebut.');
+  if(errors.length) throw new Error('Kesalahan rumus pada '+errors.join(', '));
+}
+
+/** Perbaiki diagram saja tanpa menarik ulang seluruh respons Google Form. */
+function buatUlangDiagramPenilaian() {
+  var book=SpreadsheetApp.openById('1eMQcwebDDh0uXQRdj-JYm7uqRjrmnJTyirNBPM299hc');
+  var dash=book.getSheetByName('Dashboard Penilaian');
+  if(!dash || dash.getRange('A1').getNote()!=='GAMATEX_DASHBOARD_V1') throw new Error('Dashboard belum tersedia.');
+  var titles=dash.getRange('A1:A800').getDisplayValues();
+  if(!titles[44][0] || !titles[734][0]) throw new Error('Tabel pertanyaan belum lengkap. Jalankan perbaruiDashboardPenilaian.');
+  dash.getRange('A6').setValue('Status diagram');
+  dash.getRange('B6').setValue('Membuat diagram…');
+  dash.getCharts().forEach(function(chart){dash.removeChart(chart);});
+  for(var i=0;i<24;i++){
+    var row=45+i*30;
+    dash.insertChart(dash.newChart().setChartType(Charts.ChartType.COLUMN)
+      .addRange(dash.getRange(row+1,1,6,1))
+      .addRange(dash.getRange(row+1,3,6,1))
+      .setMergeStrategy(Charts.ChartMergeStrategy.MERGE_COLUMNS)
+      .setNumHeaders(1).setPosition(row+8,1,0,0)
+      .setOption('title',titles[row-1][0]).setOption('legend',{position:'none'})
+      .setOption('colors',['#34a853'])
+      .setOption('vAxis',{title:'Persentase jawaban',format:'0%',viewWindow:{min:0,max:1}})
+      .setOption('hAxis',{title:'Nilai — jumlah jawaban (persentase)'})
+      .setOption('chartArea',{left:70,top:85,width:'83%',height:'60%'})
+      .setOption('width',980).setOption('height',400).build());
+  }
+  SpreadsheetApp.flush();
+  var count=dash.getCharts().length;
+  dash.getRange('B6').setValue(count+' diagram berhasil dibuat');
+  if(count!==24) throw new Error('Jumlah diagram tidak sesuai: '+count);
+  console.log(count+' diagram berhasil dibuat; filter divisi tetap memakai B2.');
 }
