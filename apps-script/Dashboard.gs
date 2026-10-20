@@ -45,6 +45,7 @@ function perbaruiDashboardPenilaian() {
   }
   var data = ownedSheet('Rekap Diagram 3C');
   var dash = ownedSheet('Dashboard Penilaian');
+  if (dash.getMaxRows() < 800) dash.insertRowsAfter(dash.getMaxRows(),800-dash.getMaxRows());
   var chosen = dash.getRange('B2').getDisplayValue();
   if (names.indexOf(chosen) < 0) chosen = 'Semua divisi';
   [data,dash].forEach(function(s) { s.getCharts().forEach(function(c){s.removeChart(c);}); s.clear(); s.getRange('A1').setNote('GAMATEX_DASHBOARD_V1'); });
@@ -91,26 +92,26 @@ function perbaruiDashboardPenilaian() {
   sesuaikanRumusDashboard_(dash);
   dash.insertChart(dash.newChart().setChartType(Charts.ChartType.COLUMN).addRange(dash.getRange('A10:B14')).setPosition(10,10,0,0).setOption('title','Rata-rata per aspek — sesuai filter divisi').setOption('vAxis',{viewWindow:{min:0,max:5}}).setOption('legend',{position:'none'}).setOption('colors',['#0b73e0']).setOption('width',780).setOption('height',350).build());
   ids.forEach(function(id,i) {
-    var start=45+i*9, sourceRow=18+i;
+    var start=45+i*30, sourceRow=18+i;
     dash.getRange(start,1).setValue((i+1)+'. '+titles[id]).setFontWeight('bold').setWrap(true);
     dash.getRange(start+1,1,1,4).setValues([['Nilai / jumlah / persentase','Jumlah jawaban','Persentase','Nilai']]);
     var formulas=[];
     for(var score=1;score<=5;score++){
       var r=start+1+score, countColumn=String.fromCharCode(67+score);
-      formulas.push(['=D'+r+'&" — "&B'+r+'&" ("&ROUND(C'+r+'*100)&"%)"','='+countColumn+sourceRow,'=IFERROR(B'+r+'/$C$'+sourceRow+',0)','='+score]);
+      formulas.push(['=D'+r+'&" — "&B'+r+'&" ("&ROUND(C'+r+'*1000)/10&"%)"','='+countColumn+sourceRow,'=IFERROR(B'+r+'/$C$'+sourceRow+',0)','='+score]);
     }
     dash.getRange(start+2,1,5,4).setFormulas(formulas);
     dash.getRange(start+2,3,5,1).setNumberFormat('0.0%');
   });
   sesuaikanRumusDashboard_(dash);
   ids.forEach(function(id,i){
-    var start=45+i*9;
+    var start=45+i*30;
     dash.insertChart(dash.newChart().setChartType(Charts.ChartType.COLUMN)
-      .addRange(dash.getRange(start+1,1,6,2)).setNumHeaders(1).setPosition(29+i*21,10,0,0)
+      .addRange(dash.getRange(start+1,1,6,1)).addRange(dash.getRange(start+1,3,6,1)).setNumHeaders(1).setPosition(start+8,1,0,0)
       .setOption('title',(i+1)+'. '+titles[id]).setOption('legend',{position:'none'})
       .setOption('colors',['#34a853'])
       .setOption('hAxis',{title:'Nilai — jumlah jawaban (persentase)',slantedText:false})
-      .setOption('vAxis',{title:'Jumlah jawaban',minValue:0,format:'0',viewWindow:{min:0}})
+      .setOption('vAxis',{title:'Persentase jawaban',format:'0%',viewWindow:{min:0,max:1}})
       .setOption('titleTextStyle',{fontSize:14})
       .setOption('chartArea',{left:65,top:90,width:'84%',height:'60%'})
       .setOption('width',980).setOption('height',400).build());
@@ -142,7 +143,7 @@ function sesuaikanRumusDashboard_(dash) {
   var addresses = ['B4','B5','B11','B12','B13','B14','A18','B18'];
   for(var i=0;i<24;i++) {
     for(var j=0;j<5;j++){
-      var r=47+i*9+j;
+      var r=47+i*30+j;
       ['A','B','C','D'].forEach(function(col){addresses.push(col+r);});
     }
   }
