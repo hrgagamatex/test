@@ -106,8 +106,9 @@ function perbaruiDashboardPenilaian() {
   sesuaikanRumusDashboard_(dash);
   ids.forEach(function(id,i){
     var start=45+i*30;
+    siapkanSumberDiagram_(dash,start);
     dash.insertChart(dash.newChart().setChartType(Charts.ChartType.COLUMN)
-      .addRange(dash.getRange(start+1,1,6,1)).addRange(dash.getRange(start+1,3,6,1)).setNumHeaders(1).setPosition(start+8,1,0,0)
+      .addRange(dash.getRange(start+1,5,6,2)).setNumHeaders(1).setPosition(start+8,1,0,0)
       .setOption('title',(i+1)+'. '+titles[id]).setOption('legend',{position:'none'})
       .setOption('colors',['#34a853'])
       .setOption('hAxis',{title:'Nilai — jumlah jawaban (persentase)',slantedText:false})
@@ -184,9 +185,9 @@ function buatUlangDiagramPenilaian() {
   dash.getCharts().forEach(function(chart){dash.removeChart(chart);});
   for(var i=0;i<24;i++){
     var row=45+i*30;
+    siapkanSumberDiagram_(dash,row);
     dash.insertChart(dash.newChart().setChartType(Charts.ChartType.COLUMN)
-      .addRange(dash.getRange(row+1,1,6,1))
-      .addRange(dash.getRange(row+1,3,6,1))
+      .addRange(dash.getRange(row+1,5,6,2))
       .setMergeStrategy(Charts.ChartMergeStrategy.MERGE_COLUMNS)
       .setNumHeaders(1).setPosition(row+8,1,0,0)
       .setOption('title',titles[row-1][0]).setOption('legend',{position:'none'})
@@ -201,4 +202,21 @@ function buatUlangDiagramPenilaian() {
   dash.getRange('B6').setValue(count+' diagram berhasil dibuat');
   if(count!==24) throw new Error('Jumlah diagram tidak sesuai: '+count);
   console.log(count+' diagram berhasil dibuat; filter divisi tetap memakai B2.');
+}
+
+function siapkanSumberDiagram_(dash,start) {
+  // Satu rentang bersebelahan: domain teks dan seri angka.
+  dash.getRange(start+1,5,1,2).setValues([['Nilai / jumlah / persentase','Persentase jawaban']]);
+  var refs=[];
+  for(var i=0;i<5;i++){
+    var row=start+2+i;
+    refs.push(['=A'+row,'=C'+row]);
+  }
+  dash.getRange(start+2,5,5,2).setFormulas(refs);
+  dash.getRange(start+2,6,5,1).setNumberFormat('0.0%');
+  SpreadsheetApp.flush();
+  var values=dash.getRange(start+2,6,5,1).getValues();
+  if(values.some(function(row){return typeof row[0]!=='number' || !isFinite(row[0]);})) {
+    throw new Error('Sumber persentase bukan angka pada baris '+(start+2)+'. Jalankan perbaruiDashboardPenilaian.');
+  }
 }
