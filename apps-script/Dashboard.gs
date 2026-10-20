@@ -21,7 +21,7 @@ function perbaruiDashboardPenilaian() {
     var answers = {};
     response.getItemResponses().forEach(function(a) { answers[String(a.getItem().getId())] = a.getResponse(); });
     var department = String(answers['1770822543'] || '').trim() || 'Divisi belum diisi';
-    if (/^(finance|accounting|finance\s*&\s*accounting)$/i.test(department)) department = 'Finance & Accounting';
+    if (/^(finance and tax|accounting|finance\s*&\s*accounting)$/i.test(department)) department = 'Finance & Accounting';
     var nik = String(answers['227649005'] || '').trim();
     [bucket('Semua divisi'), bucket(department)].forEach(function(b) {
       b.count++;
